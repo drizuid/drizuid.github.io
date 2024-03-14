@@ -1,5 +1,5 @@
 languageCode: en-us
-baseurl: ""
+baseurl: "https://drizuid.github.io/"
 title: longoconsulting.us
 theme: PaperMod
 paginate: 10
