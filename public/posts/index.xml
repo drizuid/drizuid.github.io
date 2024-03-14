@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on longoconsulting.us</title>
+    <link>https://drizuid.github.io/posts/</link>
+    <description>Recent content in Posts on longoconsulting.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Mar 2024 17:51:15 +0000</lastBuildDate>
+    <atom:link href="https://drizuid.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Routing containers through Wireguard</title>
+      <link>https://drizuid.github.io/2024/03/routing-containers-through-wireguard/</link>
+      <pubDate>Thu, 14 Mar 2024 17:51:15 +0000</pubDate>
+      <guid>https://drizuid.github.io/2024/03/routing-containers-through-wireguard/</guid>
+      <description>In this article, I show how I went about getting transmission to work through wireguard while still being able to have my other applications properly interface with transmission.</description>
+    </item>
+    <item>
+      <title>Additional notes for ATT xgs-pon bypass</title>
+      <link>https://drizuid.github.io/2023/03/additional-notes-for-att-xgs-pon-bypass/</link>
+      <pubDate>Sun, 19 Mar 2023 16:08:04 +0000</pubDate>
+      <guid>https://drizuid.github.io/2023/03/additional-notes-for-att-xgs-pon-bypass/</guid>
+      <description>&lt;p&gt;Recently, I posted about swapping to 2G service which would move me from alt-optic gpon to xgs-pon and then allow me to fully bypass the ATT ont and not even use 802.11x configuration. I thought it was pretty detailed, but I was asked about some of the outputs during the setup. Fortunately, I kept the notes in my notepad instance and can expand on things. This is an addendum to the original article &lt;a href=&#34;https://drizuid.github.io/2023/03/moving-to-opnsense-and-2gbps-internet/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Moving to OPNsense and 2Gbps Internet</title>
+      <link>https://drizuid.github.io/2023/03/moving-to-opnsense-and-2gbps-internet/</link>
+      <pubDate>Wed, 08 Mar 2023 16:11:22 +0000</pubDate>
+      <guid>https://drizuid.github.io/2023/03/moving-to-opnsense-and-2gbps-internet/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been planning on doing this transition for a bit, but I wanted to get things in place and ensure I had a solid plan before executing. I&amp;rsquo;ll discuss what I had, my plan, and what I moved to here a bit. If any of you have read my previous post, &lt;a href=&#34;https://drizuid.github.io/2020/01/att-uverse-rg-bypass/&#34;&gt;AT&amp;amp;T Uverse RG Bypass&lt;/a&gt;, then you know I am a big fan of bypassing the ATT provided RG to use my own equipment. With my 1000/1000 service, the fiber (alt optic unfortunately) came into the ATT ONT, directly to my router (initially ERL3, later ER4) which then went to my core switch to my access switches. The plan initially began to form because rather than faking the 802.1x on my router, I could instead use my own ONT and fully bypass everything ATT had in my home. Some people can do this with GPON 1G or less service, but in the former bellsouth areas, we had alt optic which uses a 1550nm wavelength rather than 1490nm wavelength, so the GPON bypass wasn&amp;rsquo;t possible for me. My plan was to get a 2.5G+ capable router with sufficient disk, memory, and cpu to handle routing at whatever speed I went with. I ordered two devices: A &lt;a href=&#34;https://www.aliexpress.us/item/3256803996127706.html&#34;&gt;GW-R86S-G2&lt;/a&gt;, and an &lt;a href=&#34;https://www.aliexpress.us/item/3256804448843528.html&#34;&gt;N6005/4xi226-V&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://blog.longoconsulting.us/wp-content/uploads/2023/03/diagram-1024x149.png&#34; alt=&#34;network diagram&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using Authentik as an identity provider</title>
+      <link>https://drizuid.github.io/2023/02/using-authentik-as-an-identity-provider/</link>
+      <pubDate>Thu, 02 Feb 2023 00:27:10 +0000</pubDate>
+      <guid>https://drizuid.github.io/2023/02/using-authentik-as-an-identity-provider/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been using the linuxserver.io secure web access gateway (SWAG) coupled with Authelia as my identity provider for quite some time. It works extremely well and I&amp;rsquo;ve been very pleased not only with the application itself, but also with the support from the authelia devs. That said, there are some features I wish authelia had that they do not yet. The biggest feature is SAML support. As many of you know, I focus heavily on Cisco Unified Communications. Cisco UC supports SAML SSO and I haven&amp;rsquo;t had anything in my lab that would let me tinker with this. Authentik can do everything authelia does plus some extras, which include SAML. I will say that I am typing this as I wing setting it up and I can already see that authentik is not as simple to configure/deploy as authelia. As a note, since I am documenting this as I do it, I will include any mistakes and how i resolve those mistakes. This is my first time touching authentik and I am purely going off the documentation available at &lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://goauthentik.io/docs/&#34;&gt;https://goauthentik.io/docs/&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PC for my kids update3</title>
+      <link>https://drizuid.github.io/2022/09/pc-for-my-kids-update3/</link>
+      <pubDate>Fri, 09 Sep 2022 14:59:22 +0000</pubDate>
+      <guid>https://drizuid.github.io/2022/09/pc-for-my-kids-update3/</guid>
+      <description>&lt;p&gt;Well, it&amp;rsquo;s been quite some years since the &lt;a href=&#34;https://blog.longoconsulting.us/2017/01/pc-for-my-kids/&#34;&gt;original build&lt;/a&gt; and even the &lt;a href=&#34;https://blog.longoconsulting.us/2018/02/pc-for-my-kids-update/&#34;&gt;follow-up rebuild&lt;/a&gt;. The original build was when my oldest (turning 13) was 7 and my middle child (turning 10) was 4. They&amp;rsquo;ve had the same AMD R7 240 graphics cards since then. Unfortunately, the games they play which began as browser based games and minecraft, have upgraded to things like roblox, fortnite, and somehow minecraft&amp;rsquo;s blocks needs more juice. So here we are. Over labor day, my friend (thanks &lt;strong&gt;@ctark&lt;/strong&gt;) pointed a sale at antonline out to me where they had RTX 2060&amp;rsquo;s in stock for 224$ each. First, I&amp;rsquo;ve not seen a graphics card in stock for a long time and second, while 224$ is well over what I might have planned to do for them, I thought it was worth it. Just looking at benchmarks, the new card is effectively &lt;a href=&#34;https://gpu.userbenchmark.com/Compare/Nvidia-RTX-2060-vs-AMD-R7-240/4034vsm8608&#34;&gt;almost 1500% better&lt;/a&gt;, so I decided to jump in.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IPv6 with docker containers</title>
+      <link>https://drizuid.github.io/2022/01/ipv6-with-docker-containers/</link>
+      <pubDate>Tue, 11 Jan 2022 17:22:20 +0000</pubDate>
+      <guid>https://drizuid.github.io/2022/01/ipv6-with-docker-containers/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been quite a while since my last post, but I wanted to cover something I had tinkered with a few times and finally got to a state I&amp;rsquo;m ok with. IPv6 in docker containers. For my testing, I will be using linuxserver.io containers, as being part of the team allows me to easily fix anything that prevents full functionality.&lt;/p&gt;&#xA;&lt;p&gt;I guess to start, a big thing I found is most ipv6 guides, including the official documentation, tells you how to enable ipv6 for the default bridge. As we all know, the default bridge is trash, it doesnt work like a custom bridge and causes a number of issues. You may also see guides that lead you to setup nds proxy which works, but it introduces a HUGE amount of latency. When I tested the NDS proxy method, i couldn&amp;rsquo;t stand how slow it was and quickly reverted the change. So, let&amp;rsquo;s get into how I set it up, note that I am not claiming to have the best method, the most efficient method, the most secure method or anything of the sort. This is just how I set it up to get what I wanted working in a way I was OK with.&#xA;&lt;img src=&#34;https://blog.longoconsulting.us/wp-content/uploads/2022/01/dockernet-blog-1024x492.png&#34; alt=&#34;This is a graphic I made to help users understand bridge networks. Many thought it was alien, but this shows that most users do this same thing today with port forwarding on their router.&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cisco UC – Secure LDAP bug</title>
+      <link>https://drizuid.github.io/2021/04/secure-ldap-bug/</link>
+      <pubDate>Fri, 30 Apr 2021 13:52:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2021/04/secure-ldap-bug/</guid>
+      <description>&lt;p&gt;While working with a client this week, I encountered an undocumented bug with secure LDAP authentication. My client was doing an upgrade from CSR11.5 to CSR 12.5 and in conjunction with this upgrade, moving to a new domain and active directory. With these changes, I decided to assist by ensuring they were compliant with Microsoft&amp;rsquo;s recommendation that secure ldap is used.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>New Home – New Network</title>
+      <link>https://drizuid.github.io/2021/03/new-home-new-network/</link>
+      <pubDate>Mon, 01 Mar 2021 23:02:48 +0000</pubDate>
+      <guid>https://drizuid.github.io/2021/03/new-home-new-network/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;WARNING: This post has a lot of pictures!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been meaning to write this up for a while, but I&amp;rsquo;ve been lazy/busy. As some may know, I relocated with my family from Nashville to Kentucky when my wife accepted her new position. As a consultant, I have the freedom to live and work from anywhere, so moving to improve my wife&amp;rsquo;s career was no big deal. Fortunately, a new home offers the chance to correct oversights on the last one. One of the first things I did was take the plans and determine how I wanted my network to look. I knew I wanted a collapsed core with access layer devices on each floor. I started by estimating how many wired connections per floor I would want. After this, I segmented those out to determine how many needed POE. The biggest thing was ensuring I left room for growth. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://blog.longoconsulting.us/wp-content/uploads/2021/03/rack-design-1024x701.png&#34; alt=&#34;1&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A sad day.</title>
+      <link>https://drizuid.github.io/2020/05/hello-world/</link>
+      <pubDate>Sun, 24 May 2020 01:52:28 +0000</pubDate>
+      <guid>https://drizuid.github.io/2020/05/hello-world/</guid>
+      <description>&lt;p&gt;As some of you may know, I&amp;rsquo;ve documented my IT adventures for over 5 years now. Personally, I think a lot of my articles were pretty useful and I actually referenced them regularly while working on client systems. Sadly, today I had a database failure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>UC Swapping to LDAPS</title>
+      <link>https://drizuid.github.io/2020/02/swap-uc-apps-to-ldaps/</link>
+      <pubDate>Fri, 14 Feb 2020 02:12:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2020/02/swap-uc-apps-to-ldaps/</guid>
+      <description>&lt;p&gt;Due to the data loss, I had to recreate this, the wording may be different from what you recall but the steps remain the same.&lt;/p&gt;&#xA;&lt;p&gt;After reading this, look at the bug I discovered when enabling secure LDAP on UC applications &lt;a href=&#34;https://blog.longoconsulting.us/2021/04/secure-ldap-bug/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As many of you are aware, Microsoft began the process to deprecate LDAP access into Active Directory back in March. You can read cisco&amp;rsquo;s advisory here: &lt;a href=&#34;https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html&#34;&gt;https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Basically, this means we need to do a fairly simple swap from LDAP to LDAPS. I just completed one for a client&amp;rsquo;s CUC and CUCM and it took about 30 minutes start to finish.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AT&amp;T Uverse RG Bypass</title>
+      <link>https://drizuid.github.io/2020/01/att-uverse-rg-bypass/</link>
+      <pubDate>Tue, 28 Jan 2020 02:17:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2020/01/att-uverse-rg-bypass/</guid>
+      <description>&lt;p&gt;Due to the data loss, all text was lost but images remain. I will try to add the text later.&lt;/p&gt;&#xA;&lt;p&gt;Something about 8192 NAT table limitation here, if that doesn&amp;rsquo;t bother you, you don&amp;rsquo;t need to proceed unless you want to.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://blog.longoconsulting.us/wp-content/uploads/2020/01/standard.png&#34; alt=&#34;Standard Setup&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CRASH! Getting root on Cisco UC Devices without TAC!</title>
+      <link>https://drizuid.github.io/2019/09/root-access-on-cisco-uc-devices/</link>
+      <pubDate>Thu, 26 Sep 2019 15:19:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2019/09/root-access-on-cisco-uc-devices/</guid>
+      <description>NOTE: Due to poor backups, I lost this post. I was able to restore it thanks to the Internet Archive, but I lost all images. I will try to restore these at a later time.&#xA;I was working with a client and we were doing a parallel build in their environment. To do this, i build the new environment without vnics connected, then i disconnected production and connected the new. However, we ran into some issues and had to revert.</description>
+    </item>
+    <item>
+      <title>Redundant Path Static Routes with IP SLA</title>
+      <link>https://drizuid.github.io/2019/09/redundancy-using-ip-sla/</link>
+      <pubDate>Fri, 20 Sep 2019 01:23:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2019/09/redundancy-using-ip-sla/</guid>
+      <description>&lt;p&gt;Thanks to one of my best clients, this article has been recovered in full!&lt;/p&gt;&#xA;&lt;p&gt;While working with a client recently, I had a situation where they had two non-HA cubes connecting to two VeloCloud SDWAN devices to get to the carrier. My first thought was to use OSPF for the routes which would allow for easy failover and a potential use of BFD. However, the carrier informed us that they only use dynamic routing protocols on their upstream connections, and we would need to use static routes to them.&lt;/p&gt;&#xA;&lt;p&gt;My first thought in this case (barring bad thoughts about the carrier) were just using weighted static routes and relying on if the carrier’s interface is down, we would see it down causing the secondary static route to take over. Well, after testing with the carrier, if they shut their port, Cisco saw it up up resulting in 100% packet loss due to the lack of transition for the static route. See the routes below&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://drizuid.github.io/posts/redundancy-using-ip-sla/ipintb.png&#34; alt=&#34;1&#34;&gt;&#xA;&lt;img src=&#34;https://drizuid.github.io/posts/redundancy-using-ip-sla/initial-static-route.png&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://drizuid.github.io/posts/redundancy-using-ip-sla/SEH-diagram.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>When you need a server to tackle tasks</title>
+      <link>https://drizuid.github.io/2019/06/when-you-need-a-server-to-tackle-tasks/</link>
+      <pubDate>Tue, 04 Jun 2019 20:32:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2019/06/when-you-need-a-server-to-tackle-tasks/</guid>
+      <description>&lt;p&gt;Sometimes when you’re in a client environment, you just need something you don’t have access to. That could be NTP, DNS, gateways, an internal CA, or even just an SFTP server. I encounter this all the time and my solution is almost always to simply get an IP from the client and spin up a linux server.&lt;/p&gt;&#xA;&lt;p&gt;I decided to make this a vLog entry rather than a blog, so please check out the videos. I would like to point out that the part2 video does have an error in the alt_names section for the IP address. DNS entries are prepended by DNS: but ip addresses are prepended by IP: In my video, I prepended the IP with DNS: this will not work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cisco Conference Now</title>
+      <link>https://drizuid.github.io/2018/07/cisco-conference-now/</link>
+      <pubDate>Wed, 18 Jul 2018 20:35:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2018/07/cisco-conference-now/</guid>
+      <description>&lt;p&gt;With Call Manager 11x we saw the deprecation of Meet Me conferences begin. Meetme conferences were great, but many users had issues with using them. This is likely what led to the mass exodus of users to things like webex, zoom, and bluejeans. Today was the first time I’ve ever had the opportunity to work on Conference Now, so I will run through what I did to get this all working.&lt;/p&gt;&#xA;&lt;p&gt;The photos I will use in the guide are from UCM 12.5, but the process is the same in 11x.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200181-Configure-Conference-Now-Feature-on-CUCM-00.png&#34; alt=&#34;1&#34;&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PC for my kids update</title>
+      <link>https://drizuid.github.io/2018/02/pc-for-my-kids-update/</link>
+      <pubDate>Thu, 01 Feb 2018 21:27:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2018/02/pc-for-my-kids-update/</guid>
+      <description>&lt;p&gt;See the original post, PC for my kids, &lt;a href=&#34;https://blog.longoconsulting.us/2017/01/pc-for-my-kids/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I’ll start off with the bad news. After the two win10 vms were running perfectly for over a year now, I was running updates on my other linux servers… some how i did pay attention and upgraded the distro of my kvm box. It pretty much ruined everything, now I get stuck at the windows logo during boot. I even tried simply reinstalling the vm guest, but when the kvm booted from the win10 iso, it would freeze at… you guessed it, the windows logo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bulk changing incorrect css for unassigned DNs</title>
+      <link>https://drizuid.github.io/2017/10/bulk-changing-incorrect-css-for-unassigned-dns/</link>
+      <pubDate>Tue, 24 Oct 2017 20:24:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2017/10/bulk-changing-incorrect-css-for-unassigned-dns/</guid>
+      <description>&lt;p&gt;Today I was cleaning up some CSSs for a client. I came across a particular css that had been erroneously assigned as the line css for a bunch of unassigned DNs (they were precreated to show they were already in use). Of course, I went to BAT first to see if I could just update the line css of the lines, but I discovered that I couldn&amp;rsquo;t affect the unassigned DNs (even though there is an option for searching unassigned dns…)&lt;/p&gt;&#xA;&lt;p&gt;Anyway, as you can guess, I jumped into SQL to see what I could do.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using SQL to clean up Call Manager pt3</title>
+      <link>https://drizuid.github.io/2017/05/using-sql-to-clean-up-call-manager-pt3/</link>
+      <pubDate>Thu, 18 May 2017 20:23:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2017/05/using-sql-to-clean-up-call-manager-pt3/</guid>
+      <description>See Parts 1 and 2&#xA;If you&amp;rsquo;ve been following me in this 3 part series, you know we started off with around 700 dependencies on a CSS that no longer fits our standard. It was in use by various things and we leveraged SQL to quickly, efficiently, and safely remove it from use. When we finished part 2, the only things still referencing our css were directory numbers. Well, we actually have 2 CSSs we&amp;rsquo;re going to clean up today.</description>
+    </item>
+    <item>
+      <title>Using SQL to clean up Call Manager pt2</title>
+      <link>https://drizuid.github.io/2017/05/using-sql-to-clean-up-call-manager-pt2/</link>
+      <pubDate>Tue, 02 May 2017 20:22:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2017/05/using-sql-to-clean-up-call-manager-pt2/</guid>
+      <description>&lt;p&gt;See Parts &lt;a href=&#34;https://drizuid.github.io/2017/04/using-sql-to-clean-up-call-manager-pt1/&#34;&gt;1&lt;/a&gt; and &lt;a href=&#34;https://drizuid.github.io/2017/05/using-sql-to-clean-up-call-manager-pt3/&#34;&gt;3&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Previously we had around 700 dependencies on a CSS that no longer fits our standard. This CSS was in use by lines, devices, and users throughout the system. In part 1 we removed this css from the users, now we need to do the same for the devices.&lt;/p&gt;&#xA;&lt;p&gt;As before, we&amp;rsquo;ll start with a count.&lt;br&gt;&#xA;&lt;img src=&#34;https://drizuid.github.io/posts/using-sql-to-clean-up-call-manager-pt2/count.PNG&#34; alt=&#34;count&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using SQL to clean up Call Manager pt1</title>
+      <link>https://drizuid.github.io/2017/04/using-sql-to-clean-up-call-manager-pt1/</link>
+      <pubDate>Sat, 29 Apr 2017 20:20:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2017/04/using-sql-to-clean-up-call-manager-pt1/</guid>
+      <description>&lt;p&gt;See Parts &lt;a href=&#34;https://drizuid.github.io/2017/05/using-sql-to-clean-up-call-manager-pt2/&#34;&gt;2&lt;/a&gt; and &lt;a href=&#34;https://drizuid.github.io/2017/05/using-sql-to-clean-up-call-manager-pt3/&#34;&gt;3&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;So, at a client of mine that we will call PRO, we had a Device-CSS which seemed to be the default css for pretty much everything, including presence subscription, even though PRO-Subscribe-CSS exists. Well the PRO-Device-css also used a lot of legacy stuff from the PRI days. I wanted to clean it up and swap things to follow the standards we had implemented, which required naming based on the line of business, location, and use.&lt;/p&gt;&#xA;&lt;p&gt;First I modified all the templates to remove the PRO-Device-CSS usage and replace it with the appropriate css.&lt;br&gt;&#xA;Next I check dependencies, assuming there couldn’t be that many things…&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://drizuid.github.io/posts/using-sql-to-clean-up-call-manager-pt1/1.png&#34; alt=&#34;1&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CUCM Licensed Users (9.x&#43;) using SQL</title>
+      <link>https://drizuid.github.io/2017/02/cucm-licensed-users-9-x-using-sql/</link>
+      <pubDate>Wed, 22 Feb 2017 21:19:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2017/02/cucm-licensed-users-9-x-using-sql/</guid>
+      <description>&lt;p&gt;A client was facing some licensing issues with shared devices. After a discussion, we decided to create a local user account for this particular location. Using this local user account, we would assign all generic shared devices (waiting room, lobby, hallway) to this user and save a bunch of enhanced licenses by properly utilizing CUWLs.&lt;/p&gt;&#xA;&lt;p&gt;I provided some guidance and a local admin began the process of clicking a phone, setting the user, saving and picking the next. Obviously this is pretty painful and slow. I decided to see what we could do to speed the process up.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SRST-CME -&gt; CME Nightmare</title>
+      <link>https://drizuid.github.io/2017/02/srst-cme-cme-nightmare/</link>
+      <pubDate>Mon, 13 Feb 2017 21:12:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2017/02/srst-cme-cme-nightmare/</guid>
+      <description>&lt;p&gt;Today, I was working with a client at a remote location. Initially, we prepped a Cisco 4331 to be installed as an SRST-CME device. This particular site has a PRI and a relatively unstable WAN connection. I prepped this router in a different location as we expected no WAN connection once it was installed.&lt;/p&gt;&#xA;&lt;p&gt;As it turned out, the PRI got turned up much earlier than expected, so now we needed to get the phones registered to the router. Well, as some of you may know, you can&amp;rsquo;t configure a router for SRST-CME AND CME at the same time. Thus begins the process of removing the SRST-CME config and prepping the new config.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cisco Expressway DNS and Ports</title>
+      <link>https://drizuid.github.io/2017/01/cisco-expressway-dns-and-ports/</link>
+      <pubDate>Fri, 20 Jan 2017 21:18:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2017/01/cisco-expressway-dns-and-ports/</guid>
+      <description>&lt;p&gt;Today I was working with a client who was facing some MRA issues for their 8841 handsets and Jabber. I’ve found that typically the issues are around certificates, but this client’s MRA worked sporadically. I pondered this for a few moments and asked the Network Admin to check the ports on the firewall.. as it turned out, he didn’t have access as this was tightly controlled by security.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PC for my kids</title>
+      <link>https://drizuid.github.io/2017/01/pc-for-my-kids/</link>
+      <pubDate>Wed, 11 Jan 2017 21:14:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2017/01/pc-for-my-kids/</guid>
+      <description>&lt;p&gt;A little background. I have a 7 and 4 year old who like playing on the computer. Typically they play things like animaljam or nickjr games, very simple requirements, minimal hardware needs. One day, the horror that is minecraft crept its way into my home and suddenly, graphics (seriously? in minecraft, it&amp;rsquo;s a bunch of blocks…) mattered.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

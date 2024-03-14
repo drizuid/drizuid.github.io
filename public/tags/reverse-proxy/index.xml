@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reverse proxy on longoconsulting.us</title>
+    <link>https://drizuid.github.io/tags/reverse-proxy/</link>
+    <description>Recent content in reverse proxy on longoconsulting.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Feb 2023 00:27:10 +0000</lastBuildDate>
+    <atom:link href="https://drizuid.github.io/tags/reverse-proxy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Authentik as an identity provider</title>
+      <link>https://drizuid.github.io/2023/02/using-authentik-as-an-identity-provider/</link>
+      <pubDate>Thu, 02 Feb 2023 00:27:10 +0000</pubDate>
+      <guid>https://drizuid.github.io/2023/02/using-authentik-as-an-identity-provider/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been using the linuxserver.io secure web access gateway (SWAG) coupled with Authelia as my identity provider for quite some time. It works extremely well and I&amp;rsquo;ve been very pleased not only with the application itself, but also with the support from the authelia devs. That said, there are some features I wish authelia had that they do not yet. The biggest feature is SAML support. As many of you know, I focus heavily on Cisco Unified Communications. Cisco UC supports SAML SSO and I haven&amp;rsquo;t had anything in my lab that would let me tinker with this. Authentik can do everything authelia does plus some extras, which include SAML. I will say that I am typing this as I wing setting it up and I can already see that authentik is not as simple to configure/deploy as authelia. As a note, since I am documenting this as I do it, I will include any mistakes and how i resolve those mistakes. This is my first time touching authentik and I am purely going off the documentation available at &lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://goauthentik.io/docs/&#34;&gt;https://goauthentik.io/docs/&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

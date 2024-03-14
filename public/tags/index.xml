@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on longoconsulting.us</title>
+    <link>https://drizuid.github.io/tags/</link>
+    <description>Recent content in Tags on longoconsulting.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Mar 2024 17:51:15 +0000</lastBuildDate>
+    <atom:link href="https://drizuid.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker</title>
+      <link>https://drizuid.github.io/tags/docker/</link>
+      <pubDate>Thu, 14 Mar 2024 17:51:15 +0000</pubDate>
+      <guid>https://drizuid.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New home</title>
+      <link>https://drizuid.github.io/tags/new-home/</link>
+      <pubDate>Sun, 19 Mar 2023 16:08:04 +0000</pubDate>
+      <guid>https://drizuid.github.io/tags/new-home/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>router</title>
+      <link>https://drizuid.github.io/tags/router/</link>
+      <pubDate>Sun, 19 Mar 2023 16:08:04 +0000</pubDate>
+      <guid>https://drizuid.github.io/tags/router/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ipv6</title>
+      <link>https://drizuid.github.io/tags/ipv6/</link>
+      <pubDate>Wed, 08 Mar 2023 16:11:22 +0000</pubDate>
+      <guid>https://drizuid.github.io/tags/ipv6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ISP</title>
+      <link>https://drizuid.github.io/tags/isp/</link>
+      <pubDate>Wed, 08 Mar 2023 16:11:22 +0000</pubDate>
+      <guid>https://drizuid.github.io/tags/isp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>reverse proxy</title>
+      <link>https://drizuid.github.io/tags/reverse-proxy/</link>
+      <pubDate>Thu, 02 Feb 2023 00:27:10 +0000</pubDate>
+      <guid>https://drizuid.github.io/tags/reverse-proxy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>kvm</title>
+      <link>https://drizuid.github.io/tags/kvm/</link>
+      <pubDate>Fri, 09 Sep 2022 14:59:22 +0000</pubDate>
+      <guid>https://drizuid.github.io/tags/kvm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>kvm over ethernet</title>
+      <link>https://drizuid.github.io/tags/kvm-over-ethernet/</link>
+      <pubDate>Fri, 09 Sep 2022 14:59:22 +0000</pubDate>
+      <guid>https://drizuid.github.io/tags/kvm-over-ethernet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>qemu</title>
+      <link>https://drizuid.github.io/tags/qemu/</link>
+      <pubDate>Fri, 09 Sep 2022 14:59:22 +0000</pubDate>
+      <guid>https://drizuid.github.io/tags/qemu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cisco</title>
+      <link>https://drizuid.github.io/tags/cisco/</link>
+      <pubDate>Fri, 30 Apr 2021 13:52:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/tags/cisco/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LDAP</title>
+      <link>https://drizuid.github.io/tags/ldap/</link>
+      <pubDate>Fri, 30 Apr 2021 13:52:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/tags/ldap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unified Communications</title>
+      <link>https://drizuid.github.io/tags/unified-communications/</link>
+      <pubDate>Fri, 30 Apr 2021 13:52:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/tags/unified-communications/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Home improvement</title>
+      <link>https://drizuid.github.io/tags/home-improvement/</link>
+      <pubDate>Mon, 01 Mar 2021 23:02:48 +0000</pubDate>
+      <guid>https://drizuid.github.io/tags/home-improvement/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ubiquiti</title>
+      <link>https://drizuid.github.io/tags/ubiquiti/</link>
+      <pubDate>Mon, 01 Mar 2021 23:02:48 +0000</pubDate>
+      <guid>https://drizuid.github.io/tags/ubiquiti/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

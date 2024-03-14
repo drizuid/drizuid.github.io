@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operating Systems on longoconsulting.us</title>
+    <link>https://drizuid.github.io/categories/operating-systems/</link>
+    <description>Recent content in Operating Systems on longoconsulting.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Sep 2022 14:59:22 +0000</lastBuildDate>
+    <atom:link href="https://drizuid.github.io/categories/operating-systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PC for my kids update3</title>
+      <link>https://drizuid.github.io/2022/09/pc-for-my-kids-update3/</link>
+      <pubDate>Fri, 09 Sep 2022 14:59:22 +0000</pubDate>
+      <guid>https://drizuid.github.io/2022/09/pc-for-my-kids-update3/</guid>
+      <description>&lt;p&gt;Well, it&amp;rsquo;s been quite some years since the &lt;a href=&#34;https://blog.longoconsulting.us/2017/01/pc-for-my-kids/&#34;&gt;original build&lt;/a&gt; and even the &lt;a href=&#34;https://blog.longoconsulting.us/2018/02/pc-for-my-kids-update/&#34;&gt;follow-up rebuild&lt;/a&gt;. The original build was when my oldest (turning 13) was 7 and my middle child (turning 10) was 4. They&amp;rsquo;ve had the same AMD R7 240 graphics cards since then. Unfortunately, the games they play which began as browser based games and minecraft, have upgraded to things like roblox, fortnite, and somehow minecraft&amp;rsquo;s blocks needs more juice. So here we are. Over labor day, my friend (thanks &lt;strong&gt;@ctark&lt;/strong&gt;) pointed a sale at antonline out to me where they had RTX 2060&amp;rsquo;s in stock for 224$ each. First, I&amp;rsquo;ve not seen a graphics card in stock for a long time and second, while 224$ is well over what I might have planned to do for them, I thought it was worth it. Just looking at benchmarks, the new card is effectively &lt;a href=&#34;https://gpu.userbenchmark.com/Compare/Nvidia-RTX-2060-vs-AMD-R7-240/4034vsm8608&#34;&gt;almost 1500% better&lt;/a&gt;, so I decided to jump in.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>UC Swapping to LDAPS</title>
+      <link>https://drizuid.github.io/2020/02/swap-uc-apps-to-ldaps/</link>
+      <pubDate>Fri, 14 Feb 2020 02:12:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2020/02/swap-uc-apps-to-ldaps/</guid>
+      <description>&lt;p&gt;Due to the data loss, I had to recreate this, the wording may be different from what you recall but the steps remain the same.&lt;/p&gt;&#xA;&lt;p&gt;After reading this, look at the bug I discovered when enabling secure LDAP on UC applications &lt;a href=&#34;https://blog.longoconsulting.us/2021/04/secure-ldap-bug/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As many of you are aware, Microsoft began the process to deprecate LDAP access into Active Directory back in March. You can read cisco&amp;rsquo;s advisory here: &lt;a href=&#34;https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html&#34;&gt;https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Basically, this means we need to do a fairly simple swap from LDAP to LDAPS. I just completed one for a client&amp;rsquo;s CUC and CUCM and it took about 30 minutes start to finish.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AT&amp;T Uverse RG Bypass</title>
+      <link>https://drizuid.github.io/2020/01/att-uverse-rg-bypass/</link>
+      <pubDate>Tue, 28 Jan 2020 02:17:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2020/01/att-uverse-rg-bypass/</guid>
+      <description>&lt;p&gt;Due to the data loss, all text was lost but images remain. I will try to add the text later.&lt;/p&gt;&#xA;&lt;p&gt;Something about 8192 NAT table limitation here, if that doesn&amp;rsquo;t bother you, you don&amp;rsquo;t need to proceed unless you want to.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://blog.longoconsulting.us/wp-content/uploads/2020/01/standard.png&#34; alt=&#34;Standard Setup&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CRASH! Getting root on Cisco UC Devices without TAC!</title>
+      <link>https://drizuid.github.io/2019/09/root-access-on-cisco-uc-devices/</link>
+      <pubDate>Thu, 26 Sep 2019 15:19:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2019/09/root-access-on-cisco-uc-devices/</guid>
+      <description>NOTE: Due to poor backups, I lost this post. I was able to restore it thanks to the Internet Archive, but I lost all images. I will try to restore these at a later time.&#xA;I was working with a client and we were doing a parallel build in their environment. To do this, i build the new environment without vnics connected, then i disconnected production and connected the new. However, we ran into some issues and had to revert.</description>
+    </item>
+    <item>
+      <title>When you need a server to tackle tasks</title>
+      <link>https://drizuid.github.io/2019/06/when-you-need-a-server-to-tackle-tasks/</link>
+      <pubDate>Tue, 04 Jun 2019 20:32:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2019/06/when-you-need-a-server-to-tackle-tasks/</guid>
+      <description>&lt;p&gt;Sometimes when you’re in a client environment, you just need something you don’t have access to. That could be NTP, DNS, gateways, an internal CA, or even just an SFTP server. I encounter this all the time and my solution is almost always to simply get an IP from the client and spin up a linux server.&lt;/p&gt;&#xA;&lt;p&gt;I decided to make this a vLog entry rather than a blog, so please check out the videos. I would like to point out that the part2 video does have an error in the alt_names section for the IP address. DNS entries are prepended by DNS: but ip addresses are prepended by IP: In my video, I prepended the IP with DNS: this will not work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PC for my kids update</title>
+      <link>https://drizuid.github.io/2018/02/pc-for-my-kids-update/</link>
+      <pubDate>Thu, 01 Feb 2018 21:27:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2018/02/pc-for-my-kids-update/</guid>
+      <description>&lt;p&gt;See the original post, PC for my kids, &lt;a href=&#34;https://blog.longoconsulting.us/2017/01/pc-for-my-kids/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I’ll start off with the bad news. After the two win10 vms were running perfectly for over a year now, I was running updates on my other linux servers… some how i did pay attention and upgraded the distro of my kvm box. It pretty much ruined everything, now I get stuck at the windows logo during boot. I even tried simply reinstalling the vm guest, but when the kvm booted from the win10 iso, it would freeze at… you guessed it, the windows logo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PC for my kids</title>
+      <link>https://drizuid.github.io/2017/01/pc-for-my-kids/</link>
+      <pubDate>Wed, 11 Jan 2017 21:14:00 +0000</pubDate>
+      <guid>https://drizuid.github.io/2017/01/pc-for-my-kids/</guid>
+      <description>&lt;p&gt;A little background. I have a 7 and 4 year old who like playing on the computer. Typically they play things like animaljam or nickjr games, very simple requirements, minimal hardware needs. One day, the horror that is minecraft crept its way into my home and suddenly, graphics (seriously? in minecraft, it&amp;rsquo;s a bunch of blocks…) mattered.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

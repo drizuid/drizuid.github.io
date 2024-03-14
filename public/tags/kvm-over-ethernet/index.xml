@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kvm over ethernet on longoconsulting.us</title>
+    <link>https://drizuid.github.io/tags/kvm-over-ethernet/</link>
+    <description>Recent content in kvm over ethernet on longoconsulting.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Sep 2022 14:59:22 +0000</lastBuildDate>
+    <atom:link href="https://drizuid.github.io/tags/kvm-over-ethernet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PC for my kids update3</title>
+      <link>https://drizuid.github.io/2022/09/pc-for-my-kids-update3/</link>
+      <pubDate>Fri, 09 Sep 2022 14:59:22 +0000</pubDate>
+      <guid>https://drizuid.github.io/2022/09/pc-for-my-kids-update3/</guid>
+      <description>&lt;p&gt;Well, it&amp;rsquo;s been quite some years since the &lt;a href=&#34;https://blog.longoconsulting.us/2017/01/pc-for-my-kids/&#34;&gt;original build&lt;/a&gt; and even the &lt;a href=&#34;https://blog.longoconsulting.us/2018/02/pc-for-my-kids-update/&#34;&gt;follow-up rebuild&lt;/a&gt;. The original build was when my oldest (turning 13) was 7 and my middle child (turning 10) was 4. They&amp;rsquo;ve had the same AMD R7 240 graphics cards since then. Unfortunately, the games they play which began as browser based games and minecraft, have upgraded to things like roblox, fortnite, and somehow minecraft&amp;rsquo;s blocks needs more juice. So here we are. Over labor day, my friend (thanks &lt;strong&gt;@ctark&lt;/strong&gt;) pointed a sale at antonline out to me where they had RTX 2060&amp;rsquo;s in stock for 224$ each. First, I&amp;rsquo;ve not seen a graphics card in stock for a long time and second, while 224$ is well over what I might have planned to do for them, I thought it was worth it. Just looking at benchmarks, the new card is effectively &lt;a href=&#34;https://gpu.userbenchmark.com/Compare/Nvidia-RTX-2060-vs-AMD-R7-240/4034vsm8608&#34;&gt;almost 1500% better&lt;/a&gt;, so I decided to jump in.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>New Home – New Network</title>
+      <link>https://drizuid.github.io/2021/03/new-home-new-network/</link>
+      <pubDate>Mon, 01 Mar 2021 23:02:48 +0000</pubDate>
+      <guid>https://drizuid.github.io/2021/03/new-home-new-network/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;WARNING: This post has a lot of pictures!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been meaning to write this up for a while, but I&amp;rsquo;ve been lazy/busy. As some may know, I relocated with my family from Nashville to Kentucky when my wife accepted her new position. As a consultant, I have the freedom to live and work from anywhere, so moving to improve my wife&amp;rsquo;s career was no big deal. Fortunately, a new home offers the chance to correct oversights on the last one. One of the first things I did was take the plans and determine how I wanted my network to look. I knew I wanted a collapsed core with access layer devices on each floor. I started by estimating how many wired connections per floor I would want. After this, I segmented those out to determine how many needed POE. The biggest thing was ensuring I left room for growth. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://blog.longoconsulting.us/wp-content/uploads/2021/03/rack-design-1024x701.png&#34; alt=&#34;1&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
