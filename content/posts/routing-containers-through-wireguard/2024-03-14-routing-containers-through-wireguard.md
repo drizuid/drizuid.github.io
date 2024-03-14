@@ -6,7 +6,7 @@ date: 2024-03-14T17:51:15.000Z
 url: /2024/03/routing-containers-through-wireguard/
 tags: ["docker"]
 categories: ["docker","virt"]
-
+draft: false
 summary: In this article, I show how I went about getting transmission to work through wireguard while still being able to have my other applications properly interface with transmission.
 ---
 
