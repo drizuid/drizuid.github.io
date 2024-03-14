@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ubiquiti on longoconsulting.us</title>
+    <link>/tags/ubiquiti/</link>
+    <description>Recent content in ubiquiti on longoconsulting.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Mar 2021 23:02:48 +0000</lastBuildDate>
+    <atom:link href="/tags/ubiquiti/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Home – New Network</title>
+      <link>/2021/03/new-home-new-network/</link>
+      <pubDate>Mon, 01 Mar 2021 23:02:48 +0000</pubDate>
+      <guid>/2021/03/new-home-new-network/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;WARNING: This post has a lot of pictures!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been meaning to write this up for a while, but I&amp;rsquo;ve been lazy/busy. As some may know, I relocated with my family from Nashville to Kentucky when my wife accepted her new position. As a consultant, I have the freedom to live and work from anywhere, so moving to improve my wife&amp;rsquo;s career was no big deal. Fortunately, a new home offers the chance to correct oversights on the last one. One of the first things I did was take the plans and determine how I wanted my network to look. I knew I wanted a collapsed core with access layer devices on each floor. I started by estimating how many wired connections per floor I would want. After this, I segmented those out to determine how many needed POE. The biggest thing was ensuring I left room for growth. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://blog.longoconsulting.us/wp-content/uploads/2021/03/rack-design-1024x701.png&#34; alt=&#34;1&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on longoconsulting.us</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on longoconsulting.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Mar 2023 16:08:04 +0000</lastBuildDate>
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home Improvement</title>
+      <link>/categories/home-improvement/</link>
+      <pubDate>Sun, 19 Mar 2023 16:08:04 +0000</pubDate>
+      <guid>/categories/home-improvement/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>womp</title>
+      <link>/categories/womp/</link>
+      <pubDate>Wed, 08 Mar 2023 16:11:22 +0000</pubDate>
+      <guid>/categories/womp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>docker</title>
+      <link>/categories/docker/</link>
+      <pubDate>Thu, 02 Feb 2023 00:27:10 +0000</pubDate>
+      <guid>/categories/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>virt</title>
+      <link>/categories/virt/</link>
+      <pubDate>Thu, 02 Feb 2023 00:27:10 +0000</pubDate>
+      <guid>/categories/virt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>kvm</title>
+      <link>/categories/kvm/</link>
+      <pubDate>Fri, 09 Sep 2022 14:59:22 +0000</pubDate>
+      <guid>/categories/kvm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Operating Systems</title>
+      <link>/categories/operating-systems/</link>
+      <pubDate>Fri, 09 Sep 2022 14:59:22 +0000</pubDate>
+      <guid>/categories/operating-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows Server</title>
+      <link>/categories/windows-server/</link>
+      <pubDate>Fri, 09 Sep 2022 14:59:22 +0000</pubDate>
+      <guid>/categories/windows-server/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cisco Unified Communications</title>
+      <link>/categories/cisco-unified-communications/</link>
+      <pubDate>Fri, 30 Apr 2021 13:52:00 +0000</pubDate>
+      <guid>/categories/cisco-unified-communications/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>voice</title>
+      <link>/categories/voice/</link>
+      <pubDate>Fri, 30 Apr 2021 13:52:00 +0000</pubDate>
+      <guid>/categories/voice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>/categories/linux/</link>
+      <pubDate>Fri, 14 Feb 2020 02:12:00 +0000</pubDate>
+      <guid>/categories/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>esxi</title>
+      <link>/categories/esxi/</link>
+      <pubDate>Tue, 04 Jun 2019 20:32:00 +0000</pubDate>
+      <guid>/categories/esxi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>informix</title>
+      <link>/categories/informix/</link>
+      <pubDate>Tue, 24 Oct 2017 20:24:00 +0000</pubDate>
+      <guid>/categories/informix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>sql</title>
+      <link>/categories/sql/</link>
+      <pubDate>Tue, 24 Oct 2017 20:24:00 +0000</pubDate>
+      <guid>/categories/sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>route/switch</title>
+      <link>/categories/route/switch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/categories/route/switch/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

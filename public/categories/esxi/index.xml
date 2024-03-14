@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>esxi on longoconsulting.us</title>
+    <link>/categories/esxi/</link>
+    <description>Recent content in esxi on longoconsulting.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jun 2019 20:32:00 +0000</lastBuildDate>
+    <atom:link href="/categories/esxi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When you need a server to tackle tasks</title>
+      <link>/2019/06/when-you-need-a-server-to-tackle-tasks/</link>
+      <pubDate>Tue, 04 Jun 2019 20:32:00 +0000</pubDate>
+      <guid>/2019/06/when-you-need-a-server-to-tackle-tasks/</guid>
+      <description>&lt;p&gt;Sometimes when you’re in a client environment, you just need something you don’t have access to. That could be NTP, DNS, gateways, an internal CA, or even just an SFTP server. I encounter this all the time and my solution is almost always to simply get an IP from the client and spin up a linux server.&lt;/p&gt;&#xA;&lt;p&gt;I decided to make this a vLog entry rather than a blog, so please check out the videos. I would like to point out that the part2 video does have an error in the alt_names section for the IP address. DNS entries are prepended by DNS: but ip addresses are prepended by IP: In my video, I prepended the IP with DNS: this will not work.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

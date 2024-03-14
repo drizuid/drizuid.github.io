@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kvm on longoconsulting.us</title>
+    <link>/categories/kvm/</link>
+    <description>Recent content in kvm on longoconsulting.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Sep 2022 14:59:22 +0000</lastBuildDate>
+    <atom:link href="/categories/kvm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PC for my kids update3</title>
+      <link>/2022/09/pc-for-my-kids-update3/</link>
+      <pubDate>Fri, 09 Sep 2022 14:59:22 +0000</pubDate>
+      <guid>/2022/09/pc-for-my-kids-update3/</guid>
+      <description>&lt;p&gt;Well, it&amp;rsquo;s been quite some years since the &lt;a href=&#34;https://blog.longoconsulting.us/2017/01/pc-for-my-kids/&#34;&gt;original build&lt;/a&gt; and even the &lt;a href=&#34;https://blog.longoconsulting.us/2018/02/pc-for-my-kids-update/&#34;&gt;follow-up rebuild&lt;/a&gt;. The original build was when my oldest (turning 13) was 7 and my middle child (turning 10) was 4. They&amp;rsquo;ve had the same AMD R7 240 graphics cards since then. Unfortunately, the games they play which began as browser based games and minecraft, have upgraded to things like roblox, fortnite, and somehow minecraft&amp;rsquo;s blocks needs more juice. So here we are. Over labor day, my friend (thanks &lt;strong&gt;@ctark&lt;/strong&gt;) pointed a sale at antonline out to me where they had RTX 2060&amp;rsquo;s in stock for 224$ each. First, I&amp;rsquo;ve not seen a graphics card in stock for a long time and second, while 224$ is well over what I might have planned to do for them, I thought it was worth it. Just looking at benchmarks, the new card is effectively &lt;a href=&#34;https://gpu.userbenchmark.com/Compare/Nvidia-RTX-2060-vs-AMD-R7-240/4034vsm8608&#34;&gt;almost 1500% better&lt;/a&gt;, so I decided to jump in.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PC for my kids update</title>
+      <link>/2018/02/pc-for-my-kids-update/</link>
+      <pubDate>Thu, 01 Feb 2018 21:27:00 +0000</pubDate>
+      <guid>/2018/02/pc-for-my-kids-update/</guid>
+      <description>&lt;p&gt;See the original post, PC for my kids, &lt;a href=&#34;https://blog.longoconsulting.us/2017/01/pc-for-my-kids/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I’ll start off with the bad news. After the two win10 vms were running perfectly for over a year now, I was running updates on my other linux servers… some how i did pay attention and upgraded the distro of my kvm box. It pretty much ruined everything, now I get stuck at the windows logo during boot. I even tried simply reinstalling the vm guest, but when the kvm booted from the win10 iso, it would freeze at… you guessed it, the windows logo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PC for my kids</title>
+      <link>/2017/01/pc-for-my-kids/</link>
+      <pubDate>Wed, 11 Jan 2017 21:14:00 +0000</pubDate>
+      <guid>/2017/01/pc-for-my-kids/</guid>
+      <description>&lt;p&gt;A little background. I have a 7 and 4 year old who like playing on the computer. Typically they play things like animaljam or nickjr games, very simple requirements, minimal hardware needs. One day, the horror that is minecraft crept its way into my home and suddenly, graphics (seriously? in minecraft, it&amp;rsquo;s a bunch of blocks…) mattered.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

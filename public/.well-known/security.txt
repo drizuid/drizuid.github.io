@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+# Security Contact Email
+Contact: mailto:security@longoconsulting.us
+
+# PGP key
+Encryption: https://blog.longoconsulting.us/.well-known/gpg-key.txt
+
+Expires: 2025-12-31T23:59:59z
+Preferred-Languages: en
+Canonical: https://blog.longoconsulting.us/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCgAdFiEEXamKQxtQSsdmOcEKmGdL2Sx6QeUFAmXyNGIACgkQmGdL2Sx6
+QeV8swgAxagJN4Cla5O1+J8s+BH6HvtkXiajdfBLzk0WkS408ZKuw6XQMtyIegyk
+bv0hZUiPXu793bwVOmYW0ePhY5gjflQle5QSjf/om+9Fi7sfeQ6jJsHxNhnwX1xe
+mnFBAcxCzy1XvOgkpxIyRxBHWoIUVp2H2lMjJW7aGp0EYyS84/D8WK6zM/zWkzQ2
+KAS6c6KvLr5SPaQ6ZaTwj7ZpxIcIQxKczkFnLXfOwjSbUH99/4cHblWwkp19kliQ
+v8+mT+re1Sj7E3r3/CN1OG9NAexKAJ8ewDKbWy1cDEBvLUFLiEePF3eChZcWp1kU
+ee1ZuBUTYWwUkCWWMGZg8hZHDy8l2w==
+=7bQ/
+-----END PGP SIGNATURE-----

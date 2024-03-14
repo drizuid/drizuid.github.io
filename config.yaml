@@ -1,0 +1,91 @@
+languageCode: en-us
+baseurl: ""
+title: longoconsulting.us
+theme: PaperMod
+paginate: 10
+
+enableRobotsTXT: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  author: driz
+  defaultTheme: auto
+  title: longoconsulting.us
+  description: My adventures and misadventures in IT
+  keywords: [Blog, Hugo, PaperMod]
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  ShowFullTextinRSS: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    disableHLJS: true
+
+  homeInfoParams:
+    Title: IT Adventures
+    Content: |
+      My adventures and misadventures in IT
+
+  socialIcons:
+  - name: mastodon
+    url: "https://mastodon.linuxserver.io/@driz"
+  - name: github
+    url: "https://github.com/drizuid"
+  - name: discord
+    url: "https://discord.gg/linuxserver"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 10
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 20
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 30
+
+pygmentsUseClasses: true
+
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    lineNos: false
+    noClasses: false
+    style: onedark
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary

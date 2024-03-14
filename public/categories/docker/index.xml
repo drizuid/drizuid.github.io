@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on longoconsulting.us</title>
+    <link>/categories/docker/</link>
+    <description>Recent content in docker on longoconsulting.us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Feb 2023 00:27:10 +0000</lastBuildDate>
+    <atom:link href="/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Authentik as an identity provider</title>
+      <link>/2023/02/using-authentik-as-an-identity-provider/</link>
+      <pubDate>Thu, 02 Feb 2023 00:27:10 +0000</pubDate>
+      <guid>/2023/02/using-authentik-as-an-identity-provider/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been using the linuxserver.io secure web access gateway (SWAG) coupled with Authelia as my identity provider for quite some time. It works extremely well and I&amp;rsquo;ve been very pleased not only with the application itself, but also with the support from the authelia devs. That said, there are some features I wish authelia had that they do not yet. The biggest feature is SAML support. As many of you know, I focus heavily on Cisco Unified Communications. Cisco UC supports SAML SSO and I haven&amp;rsquo;t had anything in my lab that would let me tinker with this. Authentik can do everything authelia does plus some extras, which include SAML. I will say that I am typing this as I wing setting it up and I can already see that authentik is not as simple to configure/deploy as authelia. As a note, since I am documenting this as I do it, I will include any mistakes and how i resolve those mistakes. This is my first time touching authentik and I am purely going off the documentation available at &lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://goauthentik.io/docs/&#34;&gt;https://goauthentik.io/docs/&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IPv6 with docker containers</title>
+      <link>/2022/01/ipv6-with-docker-containers/</link>
+      <pubDate>Tue, 11 Jan 2022 17:22:20 +0000</pubDate>
+      <guid>/2022/01/ipv6-with-docker-containers/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been quite a while since my last post, but I wanted to cover something I had tinkered with a few times and finally got to a state I&amp;rsquo;m ok with. IPv6 in docker containers. For my testing, I will be using linuxserver.io containers, as being part of the team allows me to easily fix anything that prevents full functionality.&lt;/p&gt;&#xA;&lt;p&gt;I guess to start, a big thing I found is most ipv6 guides, including the official documentation, tells you how to enable ipv6 for the default bridge. As we all know, the default bridge is trash, it doesnt work like a custom bridge and causes a number of issues. You may also see guides that lead you to setup nds proxy which works, but it introduces a HUGE amount of latency. When I tested the NDS proxy method, i couldn&amp;rsquo;t stand how slow it was and quickly reverted the change. So, let&amp;rsquo;s get into how I set it up, note that I am not claiming to have the best method, the most efficient method, the most secure method or anything of the sort. This is just how I set it up to get what I wanted working in a way I was OK with.&#xA;&lt;img src=&#34;https://blog.longoconsulting.us/wp-content/uploads/2022/01/dockernet-blog-1024x492.png&#34; alt=&#34;This is a graphic I made to help users understand bridge networks. Many thought it was alien, but this shows that most users do this same thing today with port forwarding on their router.&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
