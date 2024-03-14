@@ -11,7 +11,7 @@ minify:
   minifyOutput: true
 
 params:
-  author: driz
+  author: Will
   defaultTheme: auto
   title: longoconsulting.us
   description: My adventures and misadventures in IT
