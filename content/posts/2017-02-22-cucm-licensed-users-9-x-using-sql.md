@@ -9,10 +9,7 @@ categories:
   - informix
   - sql
   - voice
-summary: |
-  A client was facing some licensing issues with shared devices. After a discussion, we decided to create a local user account for this particular location. Using this local user account, we would assign all generic shared devices (waiting room, lobby, hallway) to this user and save a bunch of enhanced licenses by properly utilizing CUWLs.
-
-  I provided some guidance and a local admin began the process of clicking a phone, setting the user, saving and picking the next. Obviously this is pretty painful and slow. I decided to see what we could do to speed the process up.
+summary: A client was facing some licensing issues with shared devices. After a discussion, we decided to create a local user account for this particular location. Using this local user account, we would assign all generic shared devices (waiting room, lobby, hallway) to this user and save a bunch of enhanced licenses by properly utilizing CUWLs. I provided some guidance and a local admin began the process of clicking a phone, setting the user, saving and picking the next. Obviously this is pretty painful and slow. I decided to see what we could do to speed the process up.
 ---
 A client was facing some licensing issues with shared devices. After a discussion, we decided to create a local user account for this particular location. Using this local user account, we would assign all generic shared devices (waiting room, lobby, hallway) to this user and save a bunch of enhanced licenses by properly utilizing CUWLs.
 

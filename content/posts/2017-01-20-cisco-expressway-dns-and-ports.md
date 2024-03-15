@@ -7,20 +7,12 @@ url: /2017/01/cisco-expressway-dns-and-ports/
 categories:
   - Cisco Unified Communications
   - voice
-summary: |
-	Today I was working with a client who was facing some MRA issues for their 8841 handsets and Jabber. I’ve found that typically the issues are around certificates, but this client’s MRA worked sporadically. I pondered this for a few moments and asked the Network Admin to check the ports on the firewall.. as it turned out, he didn’t have access as this was tightly controlled by security.
-
-	As much UC consultants know, network security handled by non-network saavy people, usually turns out to be a complete pain in the ass. No change here. We’ll bulletize the conversation for ease of reading, it starts with me.
-
-	* nmap the IP from the outside
-	* what’s nmap?
-	* ok telnet to each port on the ip from the outside
-	* I can’t find telnet on my machine and I’m not an admin
-	* OK I’ll write a script
+summary: Today I was working with a client who was facing some MRA issues for their 8841 handsets and Jabber. I've found that typically the issues are around certificates, but this client's MRA worked sporadically. I pondered this for a few moments and asked the Network Admin to check the ports on the firewall.. as it turned out, he didn't have access as this was tightly controlled by security.
 ---
+
 Today I was working with a client who was facing some MRA issues for their 8841 handsets and Jabber. I’ve found that typically the issues are around certificates, but this client’s MRA worked sporadically. I pondered this for a few moments and asked the Network Admin to check the ports on the firewall.. as it turned out, he didn’t have access as this was tightly controlled by security.
 
-As much UC consultants know, network security handled by non-network saavy people, usually turns out to be a complete pain in the ass. No change here. We’ll bulletize the conversation for ease of reading, it starts with me.
+As much UC consultants know, network security handled by non-network saavy people, usually turns out to be a complete pain in the ass. No change here. We'll bulletize the conversation for ease of reading, it starts with me.
 
   * nmap the IP from the outside
   * what’s nmap?

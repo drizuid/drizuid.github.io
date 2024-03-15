@@ -9,10 +9,7 @@ categories:
   - informix
   - sql
   - voice
-summary: |
-  Today I was cleaning up some CSSs for a client. I came across a particular css that had been erroneously assigned as the line css for a bunch of unassigned DNs (they were precreated to show they were already in use). Of course, I went to BAT first to see if I could just update the line css of the lines, but I discovered that I couldn't affect the unassigned DNs (even though there is an option for searching unassigned dns…)
-
-  Anyway, as you can guess, I jumped into SQL to see what I could do.
+summary: Today I was cleaning up some CSSs for a client. I came across a particular css that had been erroneously assigned as the line css for a bunch of unassigned DNs (they were precreated to show they were already in use). Of course, I went to BAT first to see if I could just update the line css of the lines, but I discovered that I couldn't affect the unassigned DNs (even though there is an option for searching unassigned dns…) Anyway, as you can guess, I jumped into SQL to see what I could do.
 ---
 Today I was cleaning up some CSSs for a client. I came across a particular css that had been erroneously assigned as the line css for a bunch of unassigned DNs (they were precreated to show they were already in use). Of course, I went to BAT first to see if I could just update the line css of the lines, but I discovered that I couldn't affect the unassigned DNs (even though there is an option for searching unassigned dns…)
 

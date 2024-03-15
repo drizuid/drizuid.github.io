@@ -11,16 +11,13 @@ categories:
   - Operating Systems
   - virt
   - voice
-summary: |
-  Sometimes when you’re in a client environment, you just need something you don’t have access to. That could be NTP, DNS, gateways, an internal CA, or even just an SFTP server. I encounter this all the time and my solution is almost always to simply get an IP from the client and spin up a linux server.
-
-  I decided to make this a vLog entry rather than a blog, so please check out the videos. I would like to point out that the part2 video does have an error in the alt_names section for the IP address. DNS entries are prepended by DNS: but ip addresses are prepended by IP: In my video, I prepended the IP with DNS: this will not work.
+summary: Sometimes when you're in a client environment, you just need something you don't have access to. That could be NTP, DNS, gateways, an internal CA, or even just an SFTP server. I encounter this all the time and my solution is almost always to simply get an IP from the client and spin up a linux server.
 ---
-Sometimes when you’re in a client environment, you just need something you don’t have access to. That could be NTP, DNS, gateways, an internal CA, or even just an SFTP server. I encounter this all the time and my solution is almost always to simply get an IP from the client and spin up a linux server.
+Sometimes when you're in a client environment, you just need something you don't have access to. That could be NTP, DNS, gateways, an internal CA, or even just an SFTP server. I encounter this all the time and my solution is almost always to simply get an IP from the client and spin up a linux server.
 
-I decided to make this a vLog entry rather than a blog, so please check out the videos. I would like to point out that the part2 video does have an error in the alt_names section for the IP address. DNS entries are prepended by DNS: but ip addresses are prepended by IP: In my video, I prepended the IP with DNS: this will not work.
+I decided to make this a vLog entry rather than a blog, so please check out the videos. I would like to point out that the part2 video does have an error in the alt_names section for the IP address. DNS entries are prepended by `DNS:` but ip addresses are prepended by `IP:` In my video, I prepended the IP with `DNS:` this will not work.
 
-Commands used (including some missing in the video):  
+Commands used (including some missing in the video)  
 ```Shell
 openssl genrsa -out rootCA.key 2048
 openssl req -x509 -new -nodes -key rootCA.key -sha256 -days 1825 -out rootCA.pem
@@ -44,7 +41,7 @@ echo 01 > /etc/ssl/serial
 openssl ca -out www.crt -config openssl.cnf -extensions v3_req -infiles www.csr
 ```
 
-openssl.cnf:
+openssl.cnf
 ```Shell
 # Establish working directory.
  
