@@ -1,5 +1,5 @@
 languageCode: en-us
-baseurl: ''
+baseurl: "https://blog.longoconsulting.us"
 title: longoconsulting.us
 theme: ["PaperMod"]
 paginate: 10
