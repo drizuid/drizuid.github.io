@@ -1,7 +1,7 @@
 languageCode: en-us
 baseurl: "https://drizuid.github.io"
 title: longoconsulting.us
-theme: PaperMod
+theme: ["PaperMod"]
 paginate: 10
 
 enableRobotsTXT: true
@@ -37,10 +37,17 @@ params:
     disableHLJS: true
 
   homeInfoParams:
-    Title: IT Adventures
+    Title: My IT Adventures!
     Content: |
-      My adventures and misadventures in IT
+      Hey, I'm one of the linuxserver.io teammembers and enjoy technology! Professionally, I'm an IT consultant with a focus on cisco route/switch and collaboration, but I am also someone who dabbles in everything IT. 
 
+      I've been a Linux user since '96, an Asterisk user since '02, a Cisco route/switch guy since 2000 and various other things along the way. 
+
+      I'm a former US Army officer, I spent 11 years in the military and deployed to Afghanistan multiple times. As a Functional Area 24 officer, I got to do some pretty interesting stuff and thoroughly enjoyed my time in the service. 
+
+      I have various degrees ranging from associates to doctoral with some being still-in-progress-never-to-be-completed and numerous IT related certifications. 
+      
+      If you enjoy my blog, please consider sending me a donation! I enjoy bitcoin, ethereum, and long walks on the beach. 
   socialIcons:
   - name: mastodon
     url: "https://mastodon.linuxserver.io/@driz"
