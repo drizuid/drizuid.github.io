@@ -29,7 +29,7 @@ The first thing I did was download a linux ISO and deploy it into the customer's
 
 `openssl s_client -showcerts -connect ip.of.AD.node:636`
 
-![](/images/swap-uc-apps-to-ldaps/getcert-707x1024.png)
+![](/images/swap-uc-apps-to-ldaps/getcert.png)
 
 Once you've grabbed the certs, you need to copy the section starting with -----BEGIN and ending with -----END, as shown below. Don't leave out the dashes.
 
