@@ -16,18 +16,13 @@ tags:
 summary: |
   **WARNING: This post has a lot of pictures!**
 
-  I've been meaning to write this up for a while, but I've been lazy/busy. As some may know, I relocated with my family from Nashville to Kentucky when my wife accepted her new position. As a consultant, I have the freedom to live and work from anywhere, so moving to improve my wife's career was no big deal. Fortunately, a new home offers the chance to correct oversights on the last one. One of the first things I did was take the plans and determine how I wanted my network to look. I knew I wanted a collapsed core with access layer devices on each floor. I started by estimating how many wired connections per floor I would want. After this, I segmented those out to determine how many needed POE. The biggest thing was ensuring I left room for growth. <figure class="wp-block-image size-large">
+  I've been meaning to write this up for a while, but I've been lazy/busy. As some may know, I relocated with my family from Nashville to Kentucky when my wife accepted her new position. As a consultant, I have the freedom to live and work from anywhere, so moving to improve my wife's career was no big deal. Fortunately, a new home offers the chance to correct oversights on the last one. One of the first things I did was take the plans and determine how I wanted my network to look. I knew I wanted a collapsed core with access layer devices on each floor. I started by estimating how many wired connections per floor I would want. After this, I segmented those out to determine how many needed POE. The biggest thing was ensuring I left room for growth.
 
-  ![](/images/new-home-new-network/rack-design-1024x701.png)
-resources:
-  - src: 'images/new-home-new-network/1/ubiquiti-delivery.jpg'
-    title: 'The delivery'
 ---
 **WARNING: This post has a lot of pictures!**
 
 I've been meaning to write this up for a while, but I've been lazy/busy. As some may know, I relocated with my family from Nashville to Kentucky when my wife accepted her new position. As a consultant, I have the freedom to live and work from anywhere, so moving to improve my wife's career was no big deal. Fortunately, a new home offers the chance to correct oversights on the last one. One of the first things I did was take the plans and determine how I wanted my network to look. I knew I wanted a collapsed core with access layer devices on each floor. I started by estimating how many wired connections per floor I would want. After this, I segmented those out to determine how many needed POE. The biggest thing was ensuring I left room for growth. <figure class="wp-block-image size-large">
-
-![](/images/new-home-new-network/rack-design-1024x701.png)
+{{< lightgallery assets="new-home-new-network/How I designed my racks.jpg" thumbsize="300x300" >}}
 
 A couple things that took some time was finding the appropriate racks that could support the weight, depth, and location I wanted to mount them. I also needed to ensure I purchased something quality-made to avoid having everything fall off the wall. I went through quite a few to determine what would support my needs before deciding on [StarTech 6U Wallmount Rack](https://www.amazon.com/gp/product/B000VDPBXM) for the 1st and second floor and the [Raising Electronics 4post 27U rack](https://www.amazon.com/gp/product/B076VQ916B) for the basement.
 
