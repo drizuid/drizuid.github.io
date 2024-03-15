@@ -4,6 +4,7 @@ author: Will
 type: posts
 date: 2017-05-02T20:22:00+00:00
 url: /2017/05/using-sql-to-clean-up-call-manager-pt2/
+series: ['Using SQL to cleanup CUCM']
 categories:
   - Cisco Unified Communications
   - informix
@@ -15,6 +16,7 @@ summary: |
   As before, we'll start with a count.  
   ![count](/images/using-sql-to-clean-up-call-manager-pt2/count.PNG)
 ---
+
 See Parts&nbsp;[1][1]&nbsp;and&nbsp;[3][2]
 
 Previously we had around 700 dependencies on a CSS that no longer fits our standard. This CSS was in use by lines, devices, and users throughout the system. In part 1 we removed this css from the users, now we need to do the same for the devices.

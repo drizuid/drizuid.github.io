@@ -4,6 +4,7 @@ author: Will
 type: posts
 date: 2018-02-01T21:27:00+00:00
 url: /2018/02/pc-for-my-kids-update/
+series: ['PC for my Kids']
 categories:
   - kvm
   - Linux
@@ -11,6 +12,7 @@ categories:
   - virt
 summary: I’ll start off with the bad news. After the two win10 vms were running perfectly for over a year now, I was running updates on my other linux servers… some how i did pay attention and upgraded the distro of my kvm box. It pretty much ruined everything, now I get stuck at the windows logo during boot. I even tried simply reinstalling the vm guest, but when the kvm booted from the win10 iso, it would freeze at… you guessed it, the windows logo.
 ---
+
 See the original post, PC for my kids, [here](https://blog.longoconsulting.us/2017/01/pc-for-my-kids/)
 
 I’ll start off with the bad news. After the two win10 vms were running perfectly for over a year now, I was running updates on my other linux servers… some how i did pay attention and upgraded the distro of my kvm box. It pretty much ruined everything, now I get stuck at the windows logo during boot. I even tried simply reinstalling the vm guest, but when the kvm booted from the win10 iso, it would freeze at… you guessed it, the windows logo.

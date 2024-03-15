@@ -4,6 +4,7 @@ author: Will
 type: posts
 date: 2022-09-09T14:59:22+00:00
 url: /2022/09/pc-for-my-kids-update3/
+series: ['PC for my Kids']
 categories:
   - kvm
   - Operating Systems
@@ -16,6 +17,7 @@ tags:
 summary: |
   Well, it's been quite some years since the [original build](https://blog.longoconsulting.us/2017/01/pc-for-my-kids/) and even the [follow-up rebuild](https://blog.longoconsulting.us/2018/02/pc-for-my-kids-update/). The original build was when my oldest (turning 13) was 7 and my middle child (turning 10) was 4. They've had the same AMD R7 240 graphics cards since then. Unfortunately, the games they play which began as browser based games and minecraft, have upgraded to things like roblox, fortnite, and somehow minecraft's blocks needs more juice. So here we are. Over labor day, my friend (thanks **@ctark**) pointed a sale at antonline out to me where they had RTX 2060's in stock for 224$ each. First, I've not seen a graphics card in stock for a long time and second, while 224$ is well over what I might have planned to do for them, I thought it was worth it. Just looking at benchmarks, the new card is effectively [almost 1500% better](https://gpu.userbenchmark.com/Compare/Nvidia-RTX-2060-vs-AMD-R7-240/4034vsm8608), so I decided to jump in. 
 ---
+
 Well, it's been quite some years since the [original build](https://blog.longoconsulting.us/2017/01/pc-for-my-kids/) and even the [follow-up rebuild](https://blog.longoconsulting.us/2018/02/pc-for-my-kids-update/). The original build was when my oldest (turning 13) was 7 and my middle child (turning 10) was 4. They've had the same AMD R7 240 graphics cards since then. Unfortunately, the games they play which began as browser based games and minecraft, have upgraded to things like roblox, fortnite, and somehow minecraft's blocks needs more juice. So here we are. Over labor day, my friend (thanks **@ctark**) pointed a sale at antonline out to me where they had RTX 2060's in stock for 224$ each. First, I've not seen a graphics card in stock for a long time and second, while 224$ is well over what I might have planned to do for them, I thought it was worth it. Just looking at benchmarks, the new card is effectively [almost 1500% better](https://gpu.userbenchmark.com/Compare/Nvidia-RTX-2060-vs-AMD-R7-240/4034vsm8608), so I decided to jump in. 
 
 As many of you may recall, the system is a linux based (debian 11) server running KVM to handle 2 of my kids' windows 10 virtual machines. Some of you are probably thinking, well that's a jump and a 2060 is going to need a beefier PSU. I thought the same. The PSU in the server was a 500w platinum, I had a 550w platinum in the basement so I tossed that in because I had nothing else on hand. The gpu says it requires a 500w PSU, so I thought hey.. maybe 550 will run 2 (yah yah, I will buy a bigger one soon). 

@@ -4,13 +4,11 @@ author: Will
 type: posts
 date: 2017-01-11T21:14:00+00:00
 url: /2017/01/pc-for-my-kids/
-categories:
-  - kvm
-  - Linux
-  - Operating Systems
-  - virt
+series: ['PC for my Kids']
+categories: ['kvm','Linux','Operating Systems','virt']
 summary: A little background. I have a 7 and 4 year old who like playing on the computer. Typically they play things like animaljam or nickjr games, very simple requirements, minimal hardware needs. One day, the horror that is minecraft crept its way into my home and suddenly, graphics (seriously? in minecraft, it's a bunch of blocks…) mattered.
 ---
+
 A little background. I have a 7 and 4 year old who like playing on the computer. Typically they play things like animaljam or nickjr games, very simple requirements, minimal hardware needs. One day, the horror that is minecraft crept its way into my home and suddenly, graphics (seriously? in minecraft, it's a bunch of blocks…) mattered.
 
 At this time there was my old pc with a GTX 460, an SSD, 16G ram, and a nice CPU running windows 10. Beside this system was a Dell Latitude e6510 with a regular 5400 rpm hdd, 4G ram, and a trash cpu running Linux Mint. On minimal graphics settings and fullscreen, minecraft was just almost playable on the laptop, but there was always a fight for the big computer.

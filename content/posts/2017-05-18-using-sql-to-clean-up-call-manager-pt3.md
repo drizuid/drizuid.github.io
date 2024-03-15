@@ -4,6 +4,7 @@ author: Will
 type: posts
 date: 2017-05-18T20:23:00+00:00
 url: /2017/05/using-sql-to-clean-up-call-manager-pt3/
+series: ['Using SQL to cleanup CUCM']
 categories:
   - Cisco Unified Communications
   - informix
@@ -11,6 +12,7 @@ categories:
   - voice
 summary: If you've been following me in this 3 part series, you know we started off with around 700 dependencies on a CSS that no longer fits our standard. It was in use by various things and we leveraged SQL to quickly, efficiently, and safely remove it from use. When we finished part 2, the only things still referencing our css were directory numbers. Well, we actually have 2 CSSs we're going to clean up today.
 ---
+
 See Parts [1][1] and [2][2]
 
 If you've been following me in this 3 part series, you know we started off with around 700 dependencies on a CSS that no longer fits our standard. It was in use by various things and we leveraged SQL to quickly, efficiently, and safely remove it from use. When we finished part 2, the only things still referencing our css were directory numbers. Well, we actually have 2 CSSs we're going to clean up today.

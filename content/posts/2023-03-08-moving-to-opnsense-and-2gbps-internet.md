@@ -4,6 +4,7 @@ author: Will
 type: posts
 date: 2023-03-08T16:11:22+00:00
 url: /2023/03/moving-to-opnsense-and-2gbps-internet/
+series: ['XGS Bypass']
 categories:
   - womp
 tags:
@@ -15,6 +16,7 @@ summary: |
 
   ![network diagram](/images/moving-to-opnsense-and-2gbps-internet/diagram-1024x149.png)
 ---
+
 I've been planning on doing this transition for a bit, but I wanted to get things in place and ensure I had a solid plan before executing. I'll discuss what I had, my plan, and what I moved to here a bit. If any of you have read my previous post, [AT&T Uverse RG Bypass][1], then you know I am a big fan of bypassing the ATT provided RG to use my own equipment. With my 1000/1000 service, the fiber (alt optic unfortunately) came into the ATT ONT, directly to my router (initially ERL3, later ER4) which then went to my core switch to my access switches. The plan initially began to form because rather than faking the 802.1x on my router, I could instead use my own ONT and fully bypass everything ATT had in my home. Some people can do this with GPON 1G or less service, but in the former bellsouth areas, we had alt optic which uses a 1550nm wavelength rather than 1490nm wavelength, so the GPON bypass wasn't possible for me. My plan was to get a 2.5G+ capable router with sufficient disk, memory, and cpu to handle routing at whatever speed I went with. I ordered two devices: A [GW-R86S-G2](https://www.aliexpress.us/item/3256803996127706.html), and an [N6005/4xi226-V](https://www.aliexpress.us/item/3256804448843528.html)
 
 ![network diagram](/images/moving-to-opnsense-and-2gbps-internet/diagram-1024x149.png)

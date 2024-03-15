@@ -4,6 +4,7 @@ author: Will
 type: posts
 date: 2023-03-19T16:08:04+00:00
 url: /2023/03/additional-notes-for-att-xgs-pon-bypass/
+series: ['XGS Bypass']
 categories:
   - Home Improvement
   - route/switch
