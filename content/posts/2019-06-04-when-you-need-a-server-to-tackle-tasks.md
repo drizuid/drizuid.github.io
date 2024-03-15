@@ -3,7 +3,8 @@ title: When you need a server to tackle tasks
 author: Will
 type: posts
 date: 2019-06-04T20:32:00+00:00
-url: /2019/06/when-you-need-a-server-to-tackle-tasks/
+slug: when-you-need-a-server-to-tackle-tasks
+aliases: /2019/06/when-you-need-a-server-to-tackle-tasks/
 categories:
   - Cisco Unified Communications
   - esxi

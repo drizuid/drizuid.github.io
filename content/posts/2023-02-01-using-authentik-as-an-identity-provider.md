@@ -3,7 +3,8 @@ title: Using Authentik as an identity provider
 author: Will
 type: posts
 date: 2023-02-02T00:27:10+00:00
-url: /2023/02/using-authentik-as-an-identity-provider/
+slug: using-authentik-as-an-identity-provider
+aliases: /2023/02/using-authentik-as-an-identity-provider/
 categories:
   - docker
   - virt

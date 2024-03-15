@@ -3,7 +3,8 @@ title: Redundant Path Static Routes with IP SLA
 author: Will
 type: posts
 date: 2019-09-20T01:23:00+00:00
-url: /2019/09/redundancy-using-ip-sla/
+slug: redundancy-using-ip-sla
+aliases: /2019/09/redundancy-using-ip-sla/
 categories:
   - route/switch
 summary: |

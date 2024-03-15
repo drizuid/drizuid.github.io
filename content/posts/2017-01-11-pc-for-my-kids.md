@@ -3,7 +3,8 @@ title: PC for my kids
 author: Will
 type: posts
 date: 2017-01-11T21:14:00+00:00
-url: /2017/01/pc-for-my-kids/
+slug: pc-for-my-kids
+aliases: /2017/01/pc-for-my-kids/
 series: ['PC for my Kids']
 categories: ['kvm','Linux','Operating Systems','virt']
 summary: A little background. I have a 7 and 4 year old who like playing on the computer. Typically they play things like animaljam or nickjr games, very simple requirements, minimal hardware needs. One day, the horror that is minecraft crept its way into my home and suddenly, graphics (seriously? in minecraft, it's a bunch of blocks…) mattered.

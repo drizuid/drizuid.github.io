@@ -3,7 +3,8 @@ title: New Home – New Network
 author: Will
 type: posts
 date: 2021-03-01T23:02:48+00:00
-url: /2021/03/new-home-new-network/
+slug: new-home-new-network
+aliases: /2021/03/new-home-new-network/
 categories:
   - Home Improvement
   - route/switch

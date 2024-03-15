@@ -3,7 +3,8 @@ title: Bulk changing incorrect css for unassigned DNs
 author: Will
 type: posts
 date: 2017-10-24T20:24:00+00:00
-url: /2017/10/bulk-changing-incorrect-css-for-unassigned-dns/
+slug: bulk-changing-incorrect-css-for-unassigned-dns
+aliases: /2017/10/bulk-changing-incorrect-css-for-unassigned-dns/
 categories:
   - Cisco Unified Communications
   - informix

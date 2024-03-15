@@ -3,7 +3,8 @@ title: Moving to OPNsense and 2Gbps Internet
 author: Will
 type: posts
 date: 2023-03-08T16:11:22+00:00
-url: /2023/03/moving-to-opnsense-and-2gbps-internet/
+slug: moving-to-opnsense-and-2gbps-internet
+aliases: /2023/03/moving-to-opnsense-and-2gbps-internet/
 series: ['XGS Bypass']
 categories:
   - womp

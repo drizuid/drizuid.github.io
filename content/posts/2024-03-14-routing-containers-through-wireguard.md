@@ -3,7 +3,8 @@ title: Routing containers through Wireguard
 author: Will
 type: posts
 date: 2024-03-14T17:51:15.000Z
-url: /2024/03/routing-containers-through-wireguard/
+slug: routing-containers-through-wireguard
+aliases: /2024/03/routing-containers-through-wireguard/
 tags: ["docker"]
 categories: ["docker","virt"]
 draft: false

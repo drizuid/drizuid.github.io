@@ -3,7 +3,8 @@ title: 'SRST-CME -> CME Nightmare'
 author: Will
 type: posts
 date: 2017-02-13T21:12:00+00:00
-url: /2017/02/srst-cme-cme-nightmare/
+slug: srst-cme-cme-nightmare
+aliases: /2017/02/srst-cme-cme-nightmare/
 categories:
   - Cisco Unified Communications
   - route/switch

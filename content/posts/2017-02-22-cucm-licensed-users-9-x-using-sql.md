@@ -3,7 +3,8 @@ title: CUCM Licensed Users (9.x+) using SQL
 author: Will
 type: posts
 date: 2017-02-22T21:19:00+00:00
-url: /2017/02/cucm-licensed-users-9-x-using-sql/
+slug: cucm-licensed-users-9-x-using-sql
+aliases: /2017/02/cucm-licensed-users-9-x-using-sql/
 categories:
   - Cisco Unified Communications
   - informix

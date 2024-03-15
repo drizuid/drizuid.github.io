@@ -3,7 +3,8 @@ title: PC for my kids update
 author: Will
 type: posts
 date: 2018-02-01T21:27:00+00:00
-url: /2018/02/pc-for-my-kids-update/
+slug: pc-for-my-kids-update
+aliases: /2018/02/pc-for-my-kids-update/
 series: ['PC for my Kids']
 categories:
   - kvm

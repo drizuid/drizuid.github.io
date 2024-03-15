@@ -3,7 +3,8 @@ title: Using SQL to clean up Call Manager pt1
 author: Will
 type: posts
 date: 2017-04-29T20:20:00+00:00
-url: /2017/04/using-sql-to-clean-up-call-manager-pt1/
+slug: using-sql-to-clean-up-call-manager-pt1
+aliases: /2017/04/using-sql-to-clean-up-call-manager-pt1/
 series: ['Using SQL to cleanup CUCM']
 categories:
   - Cisco Unified Communications

@@ -3,7 +3,8 @@ title: PC for my kids update3
 author: Will
 type: posts
 date: 2022-09-09T14:59:22+00:00
-url: /2022/09/pc-for-my-kids-update3/
+slug: pc-for-my-kids-update3
+aliases: /2022/09/pc-for-my-kids-update3/
 series: ['PC for my Kids']
 categories:
   - kvm

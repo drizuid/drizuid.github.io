@@ -3,7 +3,8 @@ title: Cisco UC – Secure LDAP bug
 author: Will
 type: posts
 date: 2021-04-30T13:52:00+00:00
-url: /2021/04/secure-ldap-bug/
+slug: secure-ldap-bug
+aliases: /2021/04/secure-ldap-bug/
 categories:
   - Cisco Unified Communications
   - voice

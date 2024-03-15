@@ -3,7 +3,8 @@ title: CRASH! Getting root on Cisco UC Devices without TAC!
 author: Will
 type: posts
 date: 2019-09-26T15:19:00+00:00
-url: /2019/09/root-access-on-cisco-uc-devices/
+slug: root-access-on-cisco-uc-devices
+aliases: /2019/09/root-access-on-cisco-uc-devices/
 categories:
   - Cisco Unified Communications
   - Linux

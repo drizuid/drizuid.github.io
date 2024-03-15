@@ -3,7 +3,8 @@ title: Cisco Expressway DNS and Ports
 author: Will
 type: posts
 date: 2017-01-20T21:18:00+00:00
-url: /2017/01/cisco-expressway-dns-and-ports/
+slug: cisco-expressway-dns-and-ports
+aliases: /2017/01/cisco-expressway-dns-and-ports/
 categories:
   - Cisco Unified Communications
   - voice

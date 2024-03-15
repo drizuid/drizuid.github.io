@@ -3,7 +3,8 @@ title: Cisco Conference Now
 author: Will
 type: posts
 date: 2018-07-18T20:35:00+00:00
-url: /2018/07/cisco-conference-now/
+slug: cisco-conference-now
+aliases: /2018/07/cisco-conference-now/
 categories:
   - Cisco Unified Communications
   - voice

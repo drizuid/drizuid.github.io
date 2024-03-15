@@ -3,7 +3,8 @@ title: UC Swapping to LDAPS
 author: Will
 type: posts
 date: 2020-02-14T02:12:00+00:00
-url: /2020/02/swap-uc-apps-to-ldaps/
+slug: swap-uc-apps-to-ldaps
+aliases: /2020/02/swap-uc-apps-to-ldaps/
 categories:
   - Cisco Unified Communications
   - Linux
