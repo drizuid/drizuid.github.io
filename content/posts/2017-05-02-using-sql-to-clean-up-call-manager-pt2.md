@@ -18,7 +18,7 @@ summary: |
   ![count](/images/using-sql-to-clean-up-call-manager-pt2/count.PNG)
 ---
 
-See Parts&nbsp;[1][1]&nbsp;and&nbsp;[3][2]
+See Parts [1][1] and [3][2]
 
 Previously we had around 700 dependencies on a CSS that no longer fits our standard. This CSS was in use by lines, devices, and users throughout the system. In part 1 we removed this css from the users, now we need to do the same for the devices.
 

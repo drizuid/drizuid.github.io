@@ -122,6 +122,6 @@ For SWAG, I change the upstream_app variable from "transmission" to "wireguard" 
 ```
 For cross-seed, I needed to modify my config.js to connect to wireguard rather than transmission which looked like this originally `transmissionRpcUrl: "http://user:password@transmission:9091/transmission/rpc",` and now looks like `transmissionRpcUrl: "http://user:password@wireguard:9091/transmission/rpc",`. I'm sure you can already surmise what was needed for the arr suite. change the download client from host: transmission to host: wireguard. HOWEVER, in my case, i needed an extra step. I do not use consistent folder naming amongst my containers, I rely on remote path mappings. This basically lets you say that the transmission path is /downloads/Movies but the ARR path is /media/BT/Movies. In this setup though, you specify the host that this mapping applies to (basically which download client is this for). Since i changed my download client from transmission to wireguard, my remote path mapping is invalid because there is no host transmission. I clicked the drop down and selected wireguard on each app. 
 ![download client in radarr](/images/routing-containers-through-wireguard/edit-client-radarr.png)
-![download client in radarr](/images/routing-containers-through-wireguard/path-mapping-radarr.png
+![Path Mapping in radarr](/images/routing-containers-through-wireguard/path-mapping-radarr.png)
 
 Now everything is working. If wireguard is down, transmission has no network access, if wireguard is up, the ip is confirmed before allowing transmission access. 

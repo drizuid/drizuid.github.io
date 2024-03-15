@@ -194,9 +194,7 @@ I went back and added my DUO authenticator stage successfully. At the bottom is 
 ![MFA devices listing under user settings](/images/using-authentik-as-an-identity-provider/image-5.png)
 
 In authelia, I log in based on my local active directory instance and then have multiple options for MFA. I wanted to get all that setup. Fortunately, we can test this by logging into the web ui rather than having to wait until we proxy applications. An important thing to do post LDAP configuration is to check syncing. If you click the source you created under **Directory -> Federation**... you'll get an overview. Unfortunately in my case, I had some errors to resolve. Under additional settings for the source, there is a section titled "Object Uniqueness field." I had set this to upn because it's a unique field in AD, but this didn't seem to be liked by authentik. "objectSid" is the default, so I put it back to this to test. As soon as I hit update, it synced 8 objects, though it still complained about some "None" items.
-
-![](/images/using-authentik-as-an-identity-provider/image-19.png)
-![](/images/using-authentik-as-an-identity-provider/1-1.png)
+{{< lightgallery assets="using-authentik-as-an-identity-provider/1/**.png" thumbsize="300x300" >}}
 
 Previously I configured the duo setup, but it seemed to work differently from authelia in that without a paid account, I need to link it to a user. I cheated a little here and googled a bit and found a solution on discord. You login to duo, go to users, click the user, and copy the id. Now, you go to **Flows & Stages-> Stages**. In the row with the DUO setup stage created earlier, there's a second button in the actions column, it's for importing. Click that, select the user, and paste in the duo id. Repeat for the rest of your duo users.
 
@@ -213,9 +211,7 @@ I noticed a few things of interest in authentik which may allow it to proxy some
 ![Extra providers](/images/using-authentik-as-an-identity-provider/image-14.png)
 
 As you can see in the screenshot above, there is a warning that I did not assign this provider to any application. I also haven't created any applications, so I'll check that next. **Applications -> Applications**. In this section, I have was pretty confused on what to do, so as usual, I just winged it.
-
-![](/images/using-authentik-as-an-identity-provider/1.png)
-![](/images/using-authentik-as-an-identity-provider/image-16.png)
+{{< lightgallery assets="using-authentik-as-an-identity-provider/2/**.png" thumbsize="300x300" >}}
 
 Next we need to link our applications to the "outposts" **Applications -> Outposts**. I hit the actions button for the embedded outpost to edit. I selected all my applications and noticed line 3 in the configuration section was a bit jank, so i figured, let's change it to the fqdn. Fortunately, after reviewing the [outposts documentation section](https://goauthentik.io/docs/outposts/embedded/), it looks like we wanted to do this anyway!
 
@@ -332,11 +328,8 @@ You can easily see that the added portions are in line with the authelia section
 
 ![Authentik login prompt](/images/using-authentik-as-an-identity-provider/image-21.png)
 
-I clicked continue and was presented with the tautulli application. Following this, I need to test externally on webtop, so since we're using subdomain to reach authentik, I will create a cname for authentik at cloudflare (my DNS provider). I got impatient and kept trying to login but it failed because the DNS wasn't propagated yet, but finally, I'm prompted! I input my AD credentials and picked DUO because I have no idea where my NFC yubikey is. I was prompted to accept the permissions again. After hitting continue, I was logged into webtop!<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-11 is-layout-flex wp-block-gallery-is-layout-flex"> 
-
-![Logging in from the cellphone](/images/using-authentik-as-an-identity-provider/1-2.png)
-![Logging in from the cellphone](/images/using-authentik-as-an-identity-provider/2.png)
-![Logging in from the cellphone](/images/using-authentik-as-an-identity-provider/3.png)
+I clicked continue and was presented with the tautulli application. Following this, I need to test externally on webtop, so since we're using subdomain to reach authentik, I will create a cname for authentik at cloudflare (my DNS provider). I got impatient and kept trying to login but it failed because the DNS wasn't propagated yet, but finally, I'm prompted! I input my AD credentials and picked DUO because I have no idea where my NFC yubikey is. I was prompted to accept the permissions again. After hitting continue, I was logged into webtop!
+{{< lightgallery assets="using-authentik-as-an-identity-provider/3/**.png" thumbsize="300x300" altslice=2 >}}
 
 For now, it looks like everything is working. I will most likely do a follow-up post when I start digging into domain level. If I understand correctly, domain level will allow me to create 1 provider and 1 application that covers everything. I lose some finite controls using this method, but I think it's worth testing for the general user's sake.
 

@@ -20,7 +20,7 @@ summary: |
   ![](/images/using-sql-to-clean-up-call-manager-pt1/1.png)
 ---
 
-See Parts&nbsp;[2][1]&nbsp;and&nbsp;[3][2]
+See Parts [2][1] and [3][2]
 
 So, at a client of mine that we will call PRO, we had a Device-CSS which seemed to be the default css for pretty much everything, including presence subscription, even though PRO-Subscribe-CSS exists. Well the PRO-Device-css also used a lot of legacy stuff from the PRI days. I wanted to clean it up and swap things to follow the standards we had implemented, which required naming based on the line of business, location, and use.
 

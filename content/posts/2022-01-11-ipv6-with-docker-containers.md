@@ -107,7 +107,7 @@ Now that everything is working internally how I needed it to, I wanted to check 
 
 As you can see in the above image, using an ipv6 ping website, I was able to directly reach my SWAG container. While you don't need to leave icmp enabled for this to work, I have. You will also notice that port scanners see 443 as listening on the proper IP address.
 
-Let's discuss security real quickly. We do not go in to detail on your edge firewall, ensure you set it up properly. SWAGs fail2ban (if you're using a version after my <a href="https://github.com/linuxserver/docker-swag/commit/84cdf58b66543d3f779aac4363791b46adcc10e5" target="_blank" rel="noreferrer noopener">commit</a> fixing it) will support banning ipv6. This will also work with cloudflare banning via fail2ban if you've set this up. So let's look at that next. To test this, I know my cell phone has ipv6 when not on wifi, so I turned off my wifi and attempted to login to one of my hosted websites via swag. I input the wrong information 3 times which triggers fail2ban, below are the results.
+Let's discuss security real quickly. We do not go in to detail on your edge firewall, ensure you set it up properly. SWAGs fail2ban (if you're using a version after my [commit](https://github.com/linuxserver/docker-swag/commit/84cdf58b66543d3f779aac4363791b46adcc10e5) fixing it) will support banning ipv6. This will also work with cloudflare banning via fail2ban if you've set this up. So let's look at that next. To test this, I know my cell phone has ipv6 when not on wifi, so I turned off my wifi and attempted to login to one of my hosted websites via swag. I input the wrong information 3 times which triggers fail2ban, below are the results.
 
 
 ```Shell
@@ -123,7 +123,7 @@ Chain f2b-authelia (1 references)
    17  5392 RETURN     all      *      *       ::/0                 ::/0
 ```
 
-As you can see, fail2ban caught the attempts and created the rule to block this attacker. You can see the rule injected into ip6tables successfully. Further, I have configured my cloudflare to ban based on fail2ban as well, so I verified the ban was present on cloudflare as well.<figure class="wp-block-image size-large">
+As you can see, fail2ban caught the attempts and created the rule to block this attacker. You can see the rule injected into ip6tables successfully. Further, I have configured my cloudflare to ban based on fail2ban as well, so I verified the ban was present on cloudflare as well.
 
 ![Cloudflare ipv6 ban from fail2ban](/images/ipv6-with-docker-containers/ipv6-fail2ban-cloudflare-blog-1024x465.png) 
 

@@ -63,7 +63,7 @@ username 5555 password cisco
 I jumped on to the switch, shut/no shut the phone and boom, registered. Well shit. So I ask, why is this optional setting required? As it turns out, when you use fast track configuration, CME sees the phone as a third party device and thus, requires authentication. Well, I don't want to authenticate, why is the 8800 series line not supported in CME10.5 but 7800 series is? TAC had no clue and suggested upgrading.
 
 Adventure part2  
-OK, ISR 4331, I can upgrade to CME 11.0, 11.5, or 11.6. As you can see on this link, we have specific IOS requirements to enabled specific CME versions.&nbsp;[CME Compatibility Matrix](http://web.archive.org/web/20190907085127/http://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/requirements/guide/33matrix.html) Well, after perusing cisco's IOS options for an ISR 4331, I had 2 options, stay where I was on CME 10.5 or upgrade to a non-cisco recommended code base to get 11.5. Obviously, we're upgrading.
+OK, ISR 4331, I can upgrade to CME 11.0, 11.5, or 11.6. As you can see on this link, we have specific IOS requirements to enabled specific CME versions. [CME Compatibility Matrix](http://web.archive.org/web/20190907085127/http://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/requirements/guide/33matrix.html) Well, after perusing cisco's IOS options for an ISR 4331, I had 2 options, stay where I was on CME 10.5 or upgrade to a non-cisco recommended code base to get 11.5. Obviously, we're upgrading.
 
 I pull the file down, and scp it over to the router
 

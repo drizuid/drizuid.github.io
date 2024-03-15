@@ -20,7 +20,6 @@ With Call Manager 11x we saw the deprecation of Meet Me conferences begin. Meetm
 The photos I will use in the guide are from UCM 12.5, but the process is the same in 11x.
 
 ![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200181-Configure-Conference-Now-Feature-on-CUCM-00.png))
-<!--more-->
 
 First, we need to setup the base functionality by going to **Call Routing -> Conference Now**
 

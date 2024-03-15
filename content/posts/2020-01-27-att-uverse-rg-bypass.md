@@ -60,11 +60,11 @@ set interfaces ethernet eth0 vif 0 dhcp-options name-server update
 set interfaces ethernet eth0 vif 0 firewall in name WAN_IN
 set interfaces ethernet eth0 vif 0 firewall local name WAN_LOCAL
 set interfaces ethernet eth0 vif 0 firewall out name WAN_BLOCKS
-set interfaces ethernet eth0 vif 0 mac <mac of your RG>
+set interfaces ethernet eth0 vif 0 mac  [](mac of your RG>
 set interfaces ethernet eth1 description 'AT&T RG'
 set interfaces ethernet eth1 duplex auto
 set interfaces ethernet eth1 speed auto
-set interfaces ethernet eth2 address <LAN IP address>
+set interfaces ethernet eth2 address  [](LAN IP address>
 set interfaces ethernet eth2 description LAN
 set interfaces ethernet eth2 duplex auto
 set interfaces ethernet eth2 speed auto
@@ -98,7 +98,7 @@ Here is how I went about doing this with an ERL-3 for my in-laws. You should be 
   * updated the firmware (to 5.12) with the firmware included in the downloaded software
   * dumped the bin starting at 0x000005020000 for a length of 1048577
   * transferred the dump.bin over to my main workstation
-  * installed binwalk, jefferson (»[github.com/sviehb/jefferson][6]), and other required dependencies
+  * installed binwalk, jefferson [github.com/sviehb/jefferson][6], and other required dependencies
   * downloaded [dls' decode tool][7] (at top of page)
   * ran binwalk
 
@@ -106,7 +106,7 @@ Here is how I went about doing this with an ERL-3 for my in-laws. You should be 
   
 Scan Time:     2019-10-30 13:37:45
 Target File:   /root/dump.bin
-MD5 Checksum:  <redacted>
+MD5 Checksum:   [](redacted>
 Signatures:    386
   
 DECIMAL       HEXADECIMAL     DESCRIPTION
@@ -123,15 +123,15 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 Copyright (c) 2018-2019 devicelocksmith.com
 Version: 1.04 linux amd64
   
-Found client certificate for Serial Number: <serial number>
+Found client certificate for Serial Number:  [](serial number>
   
 Found certificates with following Subjects:
-        <mac address>
-                                 expires <date>
+         [](mac address>
+                                 expires  [](date>
         Motorola, Inc. Device Intermediate CA ATTCPE1
-                                 expires <date>
+                                 expires  [](date>
         Motorola, Inc. Device Root CA ATTCPE1
-                                 expires <date>
+                                 expires  [](date>
 Verifying certificates.. success!
 Validating private key.. success!
         None
@@ -143,7 +143,7 @@ Successfully saved EAP-TLS credentials to
   * I verified the client certificate expiration date
   * Noticed a warning from the tool
 
-`WARNING! Missing AAA server root CA! Add AAA server root CA to CA_<redacted>.pem`
+`WARNING! Missing AAA server root CA! Add AAA server root CA to CA_ [](redacted>.pem`
 
 I copied the AAA cert from my other CA set, but also noticed that the same AAA certs were available from a wireshark capture so not a huge deal. The AAA certs are common across multiple devices, so you can also borrow from others.
 
@@ -154,7 +154,7 @@ interfaces {
   ethernet eth0 {
      description Internet
      duplex auto
-     mac <mac my certs are linked to>
+     mac  [](mac my certs are linked to>
      speed auto
      vif 0 {
          address dhcp
@@ -193,7 +193,7 @@ interfaces {
      }
  }
  ethernet eth2 {
-     address <my LAN gateway ip>
+     address  [](my LAN gateway ip>
      description ES-48-Lite
      duplex auto
      ipv6 {
@@ -225,11 +225,11 @@ system {
      ipv4 {
          forwarding enable
          gre enable
-         vlan enable !<-- critical!!
+         vlan enable ! [](-- critical!!
      }
      ipv6 {
          forwarding enable
-         vlan enable !<-- critical!!
+         vlan enable ! [](-- critical!!
      }
  }
 }
@@ -239,17 +239,17 @@ Note: if your firmware is old enough on the AT&T RG, there are a number of explo
 
 Note2: I was selling cert bundles from 20-50$ each, each RG costs 15-25$ so i was able to use the extra proceeds to make back my investment on the rework station and other requisite tools. I'm not sure what the cert selling market looks like anymore, but I imagine you can still purchase the gear and break even in a few months. 
 
-![1](/images/att-uverse-rg-bypass/cert-bypass.png)Certificate bypass method</figcaption></figure> 
+![Certificate bypass method](/images/att-uverse-rg-bypass/cert-bypass.png)
 
 Some source material I used during this adventure but specific shoutouts to the dslreports community, I couldn't have set any of this up without you all and especially DLS for the decode tool and extra mile he went to help out!
 
-  * [https://www.dslreports.com/forum/r32295765-AT-T-Fiber-Any-way-to-bypass-att-modem-using-ASUS-GT-AC5300][9]
-  * <https://www.devicelocksmith.com/2019/01/configuring-8021x-authentication-using.html>
-  * <https://www.dslreports.com/forum/r32595106-AT-T-Fiber-Another-ATT-Gateway-Bypass-Thread>
-  * <https://www.dslreports.com/forum/r32115464-Bypassing-gateway-with-ERL-and-eap-proxy-question>
-  * <https://www.dslreports.com/forum/r32426308-AT-T-Fiber-Using-Asuswrt-Merlin-to-bypass-RG>
-  * <https://www.dslreports.com/forum/r31900599-ATT-TrueBridge-Mode-for-for-Ubiquity-Security-Gateway-USG~start=210>
-  * <https://medium.com/@mrtcve/at-t-gigabit-fiber-modem-bypass-using-unifi-usg-updated-c628f7f458cf>
+  *  [https://www.dslreports.com/forum/r32295765-AT-T-Fiber-Any-way-to-bypass-att-modem-using-ASUS-GT-AC5300](https://www.dslreports.com/forum/r32295765-AT-T-Fiber-Any-way-to-bypass-att-modem-using-ASUS-GT-AC5300)
+  *  [https://www.devicelocksmith.com/2019/01/configuring-8021x-authentication-using.html](https://www.devicelocksmith.com/2019/01/configuring-8021x-authentication-using.html)
+  *  [https://www.dslreports.com/forum/r32595106-AT-T-Fiber-Another-ATT-Gateway-Bypass-Thread](https://www.dslreports.com/forum/r32595106-AT-T-Fiber-Another-ATT-Gateway-Bypass-Thread)
+  *  [https://www.dslreports.com/forum/r32115464-Bypassing-gateway-with-ERL-and-eap-proxy-question](https://www.dslreports.com/forum/r32115464-Bypassing-gateway-with-ERL-and-eap-proxy-question)
+  *  [https://www.dslreports.com/forum/r32426308-AT-T-Fiber-Using-Asuswrt-Merlin-to-bypass-RG](https://www.dslreports.com/forum/r32426308-AT-T-Fiber-Using-Asuswrt-Merlin-to-bypass-RG)
+  *  [https://www.dslreports.com/forum/r31900599-ATT-TrueBridge-Mode-for-for-Ubiquity-Security-Gateway-USG~start=210](https://www.dslreports.com/forum/r31900599-ATT-TrueBridge-Mode-for-for-Ubiquity-Security-Gateway-USG~start=210)
+  *  [https://medium.com/@mrtcve/at-t-gigabit-fiber-modem-bypass-using-unifi-usg-updated-c628f7f458cf](https://medium.com/@mrtcve/at-t-gigabit-fiber-modem-bypass-using-unifi-usg-updated-c628f7f458cf)
 
  [1]: https://github.com/jaysoffian/eap_proxy
  [2]: https://www.embeddedcomputers.net/products/FlashcatUSB_XPORT/
