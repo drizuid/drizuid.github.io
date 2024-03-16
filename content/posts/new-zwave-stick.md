@@ -1,7 +1,7 @@
 ---
 title: New zwave stick
 author: Will
-date: 2024-03-14T17:51:15.000Z
+date: 2024-03-15T20:30:15.000Z
 aliases: /2024/03/new-zwave-stick/
 tags: ["docker"]
 categories: ["docker","virt"]
