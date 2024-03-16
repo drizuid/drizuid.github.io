@@ -1,9 +1,7 @@
 ---
-title: My Title
+title: '{{ replace .File.ContentBaseName `-` ` ` | title }}'
 author: Will
-type: posts
-date: 2024-03-14T17:51:15.000Z
-url: /2024/03/routing-containers-through-wireguard/
+date: '{{ .Date }}'
 tags: ["docker"]
 categories: ["docker","virt"]
 
