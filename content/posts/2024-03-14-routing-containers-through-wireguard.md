@@ -95,7 +95,7 @@ The network_mode above removes network adapters and makes it rely on the wiregua
 
 I run an up -d on wireguard and transmission with my changes. The web ui became inaccessible as did the rpc client. This is because 9091 is no longer available on the network. I do a test in transmission `docker exec -it transmission curl -s icanhazip.com` and i got back my vpn ip. So, it's working as intended.
 
-Now I need to make some adjustments to the network config of wireguard to ensure I can connect with my client on the lan. I stole this, with slight modifications, from my teammate Quietsy's [blog]( <)https://virtualize.link/vpn/) in my wg0, above the peer section, I add the following
+Now I need to make some adjustments to the network config of wireguard to ensure I can connect with my client on the lan. I stole this, with slight modifications, from my teammate [Quietsy's blog](https://virtualize.link/vpn/) in my wg0, above the peer section, I add the following
 ```Shell
 PostUp = DROUTE=$(ip route | grep default | awk '{print $3}'); HOMENET=192.168.128.0/24; HOMENET2=172.16.0.0/12; ip route add $HOMENET2 via $DROUTE; ip route add $HOMENET via $DROUTE;iptables -I OUTPUT -d $HOMENET -j ACCEPT;iptables -A OUTPUT -d $HOMENET2 -j ACCEPT; iptables -A OUTPUT ! -o %i -m mark ! --mark $(wg show %i fwmark) -m addrtype ! --dst-type LOCAL -j REJECT
 PreDown = DROUTE=$(ip route | grep default | awk '{print $3}'); HOMENET=192.168.128.0/24; HOMENET2=172.16.0.0/12; ip route del $HOMENET2 via $DROUTE; ip route del $HOMENET via $DROUTE; iptables -D OUTPUT ! -o %i -m mark ! --mark $(wg show %i fwmark) -m addrtype ! --dst-type LOCAL -j REJECT; iptables -D OUTPUT -d $HOMENET -j ACCEPT; iptables -D OUTPUT -d $HOMENET2 -j ACCEPT
