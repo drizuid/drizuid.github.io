@@ -132,3 +132,19 @@ I was pondering this setup and determined a few things after reviewing some logs
 Following this discovery, I was also thinking about my compose. In wireguard, I mapped the torrent port but ALSO 9091 for management and I thought, well, at least i dont have 9091 port forwarded on torguard, as this would've exposed my torrent management. To address this, i considered how i connect, my typical access is something like `docker exec -it transmission transmission-remote <some action>` this still works because the command is run directly inside the container. If I were to access the web ui or use a remote client, I do this through swag, which is already part of wgnet and configured to reach transmission via wireguard.wgnet. With that being said, I didnt need to map the port at all because swag can see 9091 on wireguard.wgnet as it's part of that subnet.  I'm probably being a bit tinfoil hat on this, but sometimes my security mindset kicks in and I try to think about things. 
 
 I'm not ready to test this yet (other things I'm playing with), but I also had the thought, why do I need wireguard iptables rules in place for my lan network. I'm accessing swag, which shares a custom bridge, so really, I only need to have a specific route for 172.20.0.0/24 in place. I'll probably update that and do a quick test at some point, but currently, I cannot see a situation where I am connecting from my LAN subnet or any other 172 address outside of the wgnet subnet to do anything. I got confirmation my thinking is right, I've not tested yet, but I made the changes in my wg0.conf.
+
+OK i made the change.. :D with the postup I had
+```
+default via 172.20.0.1 dev eth0
+10.13.128.0/24 dev wg0 scope link  src 10.13.128.189
+172.16.0.0/12 via 172.20.0.1 dev eth0
+172.20.0.0/24 dev eth0 scope link  src 172.20.0.50
+192.168.128.0/24 via 172.20.0.1 dev eth0
+```
+removing it left me with 
+```
+default via 172.20.0.1 dev eth0
+10.13.128.0/24 dev wg0 proto kernel scope link src 10.13.128.189
+172.20.0.0/24 dev eth0 proto kernel scope link src 172.20.0.50
+```
+So, I still had a directly connected route for the custom bridge, meaning my ARRs, cross-seed, and client via swag, work just find without any custom rules in place.
