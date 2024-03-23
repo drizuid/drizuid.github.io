@@ -27,7 +27,7 @@ The interface is a bit confusing, but the key points are forward your torrent po
 If you wait a few minutes, you should receive an email confirming your ports are forwarded. It took about 2 minutes for me to get mine. You can also confirm by checking your request status, it should say active.
 ![request approved](/images/routing-containers-through-wireguard/approved.png)
 
-Once that is complete, use the [config generator]([)https://torguard.net/tgconf.php?action=vpn-openvpnconfig), you'll select wireguard for tunnel type, select your port forward ip from the list (fixed ips), input your vpn username (it's your TG username/email and is also shown in your welcome email). Other than that, I only changed dns to the vpn provider's dns. Generate your config and paste the contents into wg0.conf in your previously created directory (`${CONFDIR}/wg-client in my case).
+Once that is complete, use the [config generator](https://torguard.net/tgconf.php?action=vpn-openvpnconfig), you'll select wireguard for tunnel type, select your port forward ip from the list (fixed ips), input your vpn username (it's your TG username/email and is also shown in your welcome email). Other than that, I only changed dns to the vpn provider's dns. Generate your config and paste the contents into wg0.conf in your previously created directory (`${CONFDIR}/wg-client in my case).
 ![config generator](/images/routing-containers-through-wireguard/config-gen.png)
 
 I created my wireguard container and assigned it to the new network. 
