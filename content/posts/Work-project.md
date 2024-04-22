@@ -42,9 +42,9 @@ Requirements
                     VCTPDU77 (hammond) cable tray with tooless PDU bracket
                     C4VCM77BK1 (hammond) metal manager with hinged door
                     C4VFMC3044UBK (hammond) finger manager (comes with door)
-                    RIK19Z4 (hammond) seismic isolation mat
-                    C4K-Z4 (hammond) seismic bolt down kit
-                    FPRK (hammond) combine 2 2Post racks into a 4Post
+                RIK19Z4 (hammond) seismic isolation mat
+                C4K-Z4 (hammond) seismic bolt down kit
+                FPRK (hammond) combine 2 2Post racks into a 4Post
             - 23in
                 DRZ42377 (hammond) 2Post 44RU 2000lbs and 800lbs seismic
                 DNRRHDW (hammond) 2Post 44RU 1500lbs and 400Lbs seismic 12-24 threaded
@@ -75,9 +75,9 @@ Requirements
                     VCTPDU77 (hammond) cable tray with tooless PDU bracket
                     C4VCM77BK1 (hammond) metal manager with hinged door
                     C4VFMC3044UBK (hammond) finger manager (comes with door)
-                    RIK23Z4 (hammond) seismic isolation mat
-                    C4K-Z4 (hammond) seismic bolt down kit
-                    FPRK (hammond) combine 2 2Post racks into a 4Post
+                RIK23Z4 (hammond) seismic isolation mat
+                C4K-Z4 (hammond) seismic bolt down kit
+                FPRK (hammond) combine 2 2Post racks into a 4Post
         - Non-Seismic
             - 19in
                 DC4R44 (hammond) 4Post 44RU 2000lbs square hole
