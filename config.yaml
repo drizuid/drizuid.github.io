@@ -20,7 +20,7 @@ params:
   defaultTheme: auto
   title: longoconsulting.us
   description: My adventures and misadventures in IT
-  keywords: [Blog, Hugo, PaperMod]
+  keywords: [Blog, Hugo, PaperMod, IT]
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: false
