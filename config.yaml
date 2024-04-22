@@ -3,6 +3,7 @@ baseurl: "https://blog.longoconsulting.us"
 title: longoconsulting.us
 theme: ["PaperMod"]
 paginate: 10
+buildDrafts: true
 
 enableRobotsTXT: true
 
