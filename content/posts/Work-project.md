@@ -97,7 +97,11 @@ Requirements
             SM5000 (Eaton)
             SU10000 (Eaton)
             BP48VRT60 (Eaton)
-            9PXM (Eaton)
+            9PXM (Eaton) (8shelf or 12shelf)
+                9PXMSPPM (Eaton) power module supports 2x 9PXMBAT each
+                9PXMBAT (Eaton) batteries, must be in pairs, require 1 9PXMSPPM for every 2
+                9PXM12SEBM-C (Eaton) expands 9PXM12S runtime by adding more PPM and BAT up to 4
+                9PXM8SEBM-C (Eaton) expands 9PXM8S runtime by adding more PPM and BAT up to 4
         - 2Post Racks
             SM1500 (Eaton)
                 2POSTRMKITWM (Eaton) 2post adapter up to 150lbs
@@ -124,6 +128,10 @@ Requirements
                 2-9USTAND (Eaton) 2U to 9U Tower stand kit
             BP48VRT60 (Eaton)
                 2-9USTAND (Eaton) 2U to 9U Tower stand kit
-            9PXM (Eaton)
+            9PXM (Eaton) (8shelf  or 12shelf)
+                9PXMSPPM (Eaton) power module supports 2x 9PXMBAT each
+                9PXMBAT (Eaton) batteries, must be in pairs, require 1 9PXMSPPM for every 2
+                9PXM12SEBM-C (Eaton) expands 9PXM12S runtime by adding more PPM and BAT up to 4
+                9PXM8SEBM-C (Eaton) expands 9PXM8S runtime by adding more PPM and BAT up to 4
                 9PXMFAK (Eaton) Floor anchor kit for 9PXM or EBM tower chassis
 ```
