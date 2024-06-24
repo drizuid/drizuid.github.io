@@ -1,6 +1,6 @@
 ---
 title: '{{ replace .File.ContentBaseName `-` ` ` | title }}'
-author: Will
+author: driz
 date: '{{ .Date }}'
 tags: ["docker"]
 categories: ["docker","virt"]
