@@ -1,6 +1,6 @@
 languageCode: en-us
-baseurl: "https://blog.longoconsulting.us"
-title: longoconsulting.us
+baseurl: "https://blog.mindofdriz.cc"
+title: Mind of driz
 theme: ["PaperMod"]
 paginate: 10
 buildDrafts: true
@@ -17,9 +17,9 @@ taxonomies:
   series: "series"
 
 params:
-  author: Will
+  author: driz
   defaultTheme: auto
-  title: longoconsulting.us
+  title: Mind of driz
   description: My adventures and misadventures in IT
   keywords: [Blog, Hugo, PaperMod, IT]
   ShowReadingTime: true
