@@ -1,6 +1,6 @@
 ---
 title: UC Swapping to LDAPS
-author: Will
+author: driz
 type: posts
 date: 2020-02-14T02:12:00+00:00
 slug: swap-uc-apps-to-ldaps

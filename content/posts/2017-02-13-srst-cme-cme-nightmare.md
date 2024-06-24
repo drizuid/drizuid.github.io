@@ -1,6 +1,6 @@
 ---
 title: 'SRST-CME -> CME Nightmare'
-author: Will
+author: driz
 type: posts
 date: 2017-02-13T21:12:00+00:00
 slug: srst-cme-cme-nightmare

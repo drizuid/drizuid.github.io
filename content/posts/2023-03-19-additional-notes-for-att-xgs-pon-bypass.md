@@ -1,6 +1,6 @@
 ---
 title: Additional notes for ATT xgs-pon bypass
-author: Will
+author: driz
 type: posts
 date: 2023-03-19T16:08:04+00:00
 slug: additional-notes-for-att-xgs-pon-bypass

@@ -1,6 +1,6 @@
 ---
 title: Work Project
-author: Will
+author: driz
 date: 2024-04-22T12:00:15.000Z
 aliases: /2024/04/work-project/
 tags: ["yaml"]

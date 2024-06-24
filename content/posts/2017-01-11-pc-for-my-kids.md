@@ -1,6 +1,6 @@
 ---
 title: PC for my kids
-author: Will
+author: driz
 type: posts
 date: 2017-01-11T21:14:00+00:00
 slug: pc-for-my-kids

@@ -1,6 +1,6 @@
 ---
 title: CUCM Licensed Users (9.x+) using SQL
-author: Will
+author: driz
 type: posts
 date: 2017-02-22T21:19:00+00:00
 slug: cucm-licensed-users-9-x-using-sql

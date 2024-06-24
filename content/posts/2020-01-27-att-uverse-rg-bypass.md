@@ -1,6 +1,6 @@
 ---
 title: 'AT&T Uverse RG Bypass'
-author: Will
+author: driz
 type: posts
 date: 2020-01-28T02:17:00+00:00
 slug: att-uverse-rg-bypass

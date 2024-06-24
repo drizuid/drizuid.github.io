@@ -1,6 +1,6 @@
 ---
 title: Cisco Expressway DNS and Ports
-author: Will
+author: driz
 type: posts
 date: 2017-01-20T21:18:00+00:00
 slug: cisco-expressway-dns-and-ports

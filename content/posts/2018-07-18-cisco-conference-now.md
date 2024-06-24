@@ -1,6 +1,6 @@
 ---
 title: Cisco Conference Now
-author: Will
+author: driz
 type: posts
 date: 2018-07-18T20:35:00+00:00
 slug: cisco-conference-now

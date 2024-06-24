@@ -1,6 +1,6 @@
 ---
 title: Routing containers through Wireguard
-author: Will
+author: driz
 type: posts
 date: 2024-03-14T17:51:15.000Z
 slug: routing-containers-through-wireguard

@@ -1,6 +1,6 @@
 ---
 title: PC for my kids update
-author: Will
+author: driz
 type: posts
 date: 2018-02-01T21:27:00+00:00
 slug: pc-for-my-kids-update

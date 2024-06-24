@@ -1,6 +1,6 @@
 ---
 title: New zwave stick
-author: Will
+author: driz
 date: 2024-03-15T20:30:15.000Z
 aliases: /2024/03/new-zwave-stick/
 tags: ["docker"]

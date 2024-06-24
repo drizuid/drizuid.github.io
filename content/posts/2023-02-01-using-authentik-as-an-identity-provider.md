@@ -1,6 +1,6 @@
 ---
 title: Using Authentik as an identity provider
-author: Will
+author: driz
 type: posts
 date: 2023-02-02T00:27:10+00:00
 slug: using-authentik-as-an-identity-provider

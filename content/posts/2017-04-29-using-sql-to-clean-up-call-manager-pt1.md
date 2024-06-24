@@ -1,6 +1,6 @@
 ---
 title: Using SQL to clean up Call Manager pt1
-author: Will
+author: driz
 type: posts
 date: 2017-04-29T20:20:00+00:00
 slug: using-sql-to-clean-up-call-manager-pt1

@@ -1,6 +1,6 @@
 ---
 title: New Home – New Network
-author: Will
+author: driz
 type: posts
 date: 2021-03-01T23:02:48+00:00
 slug: new-home-new-network
