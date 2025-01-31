@@ -2,7 +2,8 @@ languageCode: en-us
 baseurl: "https://blog.mindofdriz.cc"
 title: Mind of driz
 theme: ["PaperMod"]
-paginate: 10
+pagination:
+  pagerSize: 10
 buildDrafts: true
 
 enableRobotsTXT: true
