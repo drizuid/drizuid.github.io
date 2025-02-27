@@ -2,18 +2,8 @@
 title: 'Ipv6 Adventure'
 author: driz
 date: '2025-02-27T18:45:21Z'
-tags: ["ipv6"]
-categories: ["docker","virt","ipv6"]
-
-summary: Making a bunch of IPv6 related changes brought on by updated in Docker v28.
----
-
----
-title: 'Ipv6 Adventure'
-author: driz
-date: '2025-02-27T18:45:21Z'
-tags: ["ipv6"]
-categories: ["docker","virt","ipv6"]
+tags: ["ipv6","ipv6"]
+categories: ["docker","virt"]
 
 summary: Making a bunch of IPv6 related changes brought on by updated in Docker v28.
 ---
