@@ -8,16 +8,6 @@ categories: ["docker","virt","ipv6"]
 summary: Making a bunch of IPv6 related changes brought on by updated in Docker v28.
 ---
 
----
-title: 'Ipv6 Adventure'
-author: driz
-date: '2025-02-27T18:45:21Z'
-tags: ["ipv6"]
-categories: ["docker","virt","ipv6"]
-
-summary: Making a bunch of IPv6 related changes brought on by updated in Docker v28.
----
-
 Today I'm going to discuss a lot of things about IPv6. You may have read my previous article about [IPv6 with docker containers](/posts/ipv6-with-docker-containers/) and I will be changing some things I did there due to new features in [docker v28](https://docs.docker.com/engine/release-notes/28/). First, I'll discuss some why, then a high level of what I've done and then later go into how I did it.
 
 As you may recall in the previous article, I took my single /64 assigned to my trusted vlan and carved it into a couple /112 networks. I then assigned one /112 to docker and one to wireguard. This works fine, however, because my LAN systems only know of the /64 being issued by RA, I couldn't use ipv6 to reach the /112s. Externally this worked because incoming traffic would hit the router and see a static route sending them to the proper downstream devices. I could do this locally on PCs as well by overriding my routes. With v28 of docker though, we gained a lot of cool IPv6 features, specifically routed mode and --ipv4=false. The ipv4=false matters because ipvlan and macvlan networks get interface priority over bridges. I'll expand on this a moment.. when assigning interfaces inside a container, there is an order. It's alphabetical by network name, but ipvlan/macvlan are first, then bridge, then internal. Why does this matter? The default gateway will ALWAYS be the eth0 interface if it exists. So in my case, I wanted ipv4 traffic to flow through a bridge to reach SWAG and other things directly, but I wanted IPv6 to flow through the ipv6 network. in v27, you MUST have an ipv4 network attached, even if you don't use it, so my ipv6 ipvlan network, being the only ipvlan took eth0, this made the default gateway of the container the ipv6 network. Unfortunately, that vlan outside of the container is ipv6 only, so the ipv4 traffic all died but it also prevented bridge to bridge connectivity. With v28, we can set ipv4=false meaning the default gateway created is ONLY for ipv6. The lack of ipv4 on that network also made it not become eth0, though I do not understand why in this case. This allowed inter-container traffic to leverage bridge, outgoing ipv4 traffic to traverse an ipv4 capable network, and forced ipv6 traffic to follow the ipv6 vlan. 
