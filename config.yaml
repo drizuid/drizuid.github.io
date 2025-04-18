@@ -19,6 +19,8 @@ taxonomies:
 
 params:
   author: driz
+    email: driz@mindofdriz.cc
+    name: driz
   defaultTheme: auto
   title: Mind of driz
   description: My adventures and misadventures in IT
@@ -103,3 +105,12 @@ outputs:
         - HTML
         - RSS
         - JSON # is necessary
+    section:
+        - HTML
+        - RSS
+    taxonomy:
+        - HTML
+        - RSS
+    term:
+        - HTML
+        - RSS
