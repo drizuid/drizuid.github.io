@@ -2,9 +2,8 @@
 title: 'Multicast Video Across Vlans'
 author: driz
 date: '2024-03-18T11:39:39Z'
-tags: ["docker"]
+tags: ["docker", "router"]
 categories: ["docker", "Linux"]
-tags: ["router"]
 summary: As some of you may know from prior posts, I have a number of external security cameras (and internal) that show up on monitors throughout the house 24/7. To keep things efficient, these camera streams are multicast feeds the monitors subscribe to. Unfortunately, every so often, I need to check the streams on my PC which is in a different VLAN. I was having to access the unicast streams and I wanted to work out getting multicast to work across vlan boundaries in OPNsense. Usually, this would be something IGMP and PIM can handle in my world, but I have no Cisco gear in my network and while pfsense has igmp and pimd, OPNsense lacks pimd, so the research began.
 ---
 
